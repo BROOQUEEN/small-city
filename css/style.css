@@ -83,10 +83,12 @@
     font-size: 58px;
     color: white;
     font-weight: 900;
+    line-height: 58px;
 }
 .promo__title span{
     font-size: 42px;
     font-weight: 500;
+    margin-top: 10px;
 }
 .promo__buttons {
     margin-top: 60px;
@@ -199,10 +201,16 @@ button.btn-icon::before {
 }
 .services__item__check {
     margin-bottom: 25px;
+
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+.services__item__check p {
     font-size: 16px;
     color: #656565;
     font-weight: 500;
-    min-width: 128px;
 }
 .services__item__check:last-child {
     margin-bottom: 0;
@@ -210,6 +218,7 @@ button.btn-icon::before {
 .services__item__check img {
     width: 16px;
     height: 16px;
+    margin-right: 10px;
 }
 .services__btn {}
 .services button {
