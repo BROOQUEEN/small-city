@@ -464,3 +464,60 @@ button.btn-icon::before {
     border-radius: 0px 0px 4px 4px;
 }
 /* --------------- / Только лучшие специалисты ---------------*/
+
+/* --------------- Что о нас говорят  ---------------*/
+
+.comments {
+    padding: 75px 0;
+    background-color: #FAFAFA;
+}
+.comments__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.comments__title {
+    margin-bottom: 75px;
+}
+.comments__slider {
+    background-color: white;
+    width: 100%;
+    height: 344px;
+}
+.comments__comments {
+    
+    
+}
+.comments__item {
+    display: flex;
+    justify-content: space-around;
+    height: 344px;
+    align-items: center;
+    
+}
+.comments__photo {
+    height: 156px;
+    width: 156px;
+    margin-left: 30px;
+}
+.comments__block {
+    width: 775px;
+    height: 212px;
+}
+.comments__block__sibtitle {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 194%;
+    color: #222222;
+    margin-bottom: 6px;
+}
+.comments__block__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #656565;
+    margin-bottom: 18px;
+}
+.comments__block__rating {
+}
+/* --------------- / Что о нас говорят  ---------------*/
