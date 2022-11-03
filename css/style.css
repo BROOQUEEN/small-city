@@ -35,7 +35,11 @@ button {
     color: black;
     text-align: center;
 }
-
+.arrow-left {
+    width: 20px;
+    height: 32px;
+    background-color: red;
+}
 /* --------------- Шапка сайта ---------------*/
 .header {
     position: absolute;
@@ -254,14 +258,19 @@ button.btn-icon::before {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 100%;
 }
 .about-us__block {
     width: 50%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
+.about-us__block:first-child{
+    background-image: url('/images/about-us/about-us-bg.jpg');
+    height: 100%;
 
+}
 .about-us__block:last-child {
     width: 470px;
     margin-left: 100px;
@@ -327,6 +336,7 @@ button.btn-icon::before {
 .personal {
     background-color: #F1F4FB;
     padding: 75px 0;
+    width: 100%;
 }
 .personal__title {
 }
@@ -337,6 +347,19 @@ button.btn-icon::before {
     margin-top: 85px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+}
+.personal__lists img.slick-arrow:first-child {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    cursor: pointer;
+}
+.personal__lists img.slick-arrow:last-child {
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    cursor: pointer;
 }
 .personal__item {
     display: flex;
