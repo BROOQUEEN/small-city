@@ -6,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 500;
+    border: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 .main {
@@ -14,6 +19,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    height: 100%;
 }
 .title {
     font-size: 37px;
@@ -274,3 +280,41 @@ button.btn-icon::before {
     margin-top: 32px;
 }
 /* --------------- / Секция Почему выбирают нас? ---------------*/
+.action {
+    height: 176px;
+    background-image: url('/images/action/action-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.action__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.action__text {
+    width: 730px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 194%;
+    color: white;
+}
+.action__text-two {
+    width: 705px;
+}
+.action__btn {
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    align-items: center;
+    padding: 10px 30px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 305px;
+    height: 72px;
+}
+.action__btn-two {
+    width: 348px;
+}
