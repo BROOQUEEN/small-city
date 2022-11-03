@@ -27,6 +27,7 @@ button {
     color: #0E2E87;
     text-align: center;
     line-height: 39px;
+    text-transform: uppercase;
 }
 .subtitle {
     font-size: 22px;
@@ -280,6 +281,8 @@ button.btn-icon::before {
     margin-top: 32px;
 }
 /* --------------- / Секция Почему выбирают нас? ---------------*/
+
+/* --------------- / Пройти диагностику и Получить консультацию ---------------*/
 .action {
     height: 176px;
     background-image: url('/images/action/action-bg.jpg');
@@ -318,3 +321,146 @@ button.btn-icon::before {
 .action__btn-two {
     width: 348px;
 }
+/* --------------- / Пройти диагностику и Получить консультацию ---------------*/
+
+/* --------------- Только лучшие специалисты ---------------*/
+.personal {
+    background-color: #F1F4FB;
+    padding: 75px 0;
+}
+.personal__title {
+}
+.personal__content {
+    margin-bottom: 45px;
+}
+.personal__lists {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.personal__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    background-color: #FAFAFA;
+}
+.personal__img {
+    border-top: 6px solid transparent;
+    border-image: linear-gradient(271.25deg, #0559BC 15.34%, #0E2E87 87.46%);
+    border-image-slice: 1;
+    width: 100%;
+    max-height: 396px;
+}
+.personal__img img {
+    width: 100%;
+}
+.personal__item-container {
+    padding: 30px 0;
+    width: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.personal__subtitle {
+    text-align: center;
+}
+.personal__type {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0E2E87;
+    text-align: center;
+    background: #E7EDFB;
+    border-radius: 2px;
+    padding: 8px 16px;
+    margin-top: 13px;
+    box-sizing: border-box;
+    width: 252px;
+    height: 38px;
+}
+.personal__values {
+    display: flex;
+    justify-content: space-around;
+}
+.personal__values-text {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    padding-right: 4px;
+}
+.personal__values-text:last-child {
+    margin-top: 18px;
+    width: 252px;
+}
+.personal__values-text:last-child::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 31px;
+    height: 2px;
+    background-color: #0E2E87;
+}
+.personal__values-text:last-child::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 31px;
+    height: 2px;
+    background-color: #0E2E87;
+    margin-left: 8px;
+}
+.personal__values-text img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+.personal__values-text p {
+    margin-left: 11px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #656565;
+    font-weight: 500;
+}
+.personal__checks {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.personal__item__check {
+    /* margin-bottom: 25px; */
+
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+.personal__item__check p {
+    font-size: 16px;
+    color: #656565;
+    font-weight: 500;
+}
+.personal__item__check:last-child {
+    margin-bottom: 0;
+}
+.personal__item__check img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.personal__btn {}
+.personal button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FAFAFA;
+    padding: 19px 34px;
+    background: #0E2E87;
+    border-radius: 0px 0px 4px 4px;
+}
+/* --------------- / Только лучшие специалисты ---------------*/
