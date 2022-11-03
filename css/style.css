@@ -15,9 +15,7 @@ button {
     cursor: pointer;
 }
 
-.main {
-    padding-bottom: 1000px;
-}
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -644,3 +642,47 @@ button.btn-icon::before {
     color: #FAFAFA;
 }
 /* --------------- / Документы ---------------*/
+
+/* --------------- Подвал ---------------*/
+.footer {
+    padding: 40px 390px;
+    width: 100%;
+    height: 144px;
+    box-sizing: border-box;
+    background: #111111;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo {
+    padding: 25px 100px;
+    color: white;
+    background: transparent;
+    border: 2px solid #FAFAFA;
+}
+.footer__block {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    
+    justify-content: center;
+}
+.footer__block img {
+    margin-left: 3px;
+    margin-right: 6px;
+}
+.footer__company {
+    font-weight: 500;
+    font-size: 18.7683px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.footer__developer {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.67);
+}
+/* --------------- / Подвал ---------------*/
