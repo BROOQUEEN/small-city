@@ -367,6 +367,16 @@ button.btn-icon::before {
     right: -100px;
     cursor: pointer;
 }
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    display: flex !important;
+    align-items: center;
+    margin-bottom: -100px;
+    justify-content: center;
+}
 .personal__item {
     display: flex;
     flex-direction: column;
