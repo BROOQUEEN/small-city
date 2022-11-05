@@ -338,6 +338,12 @@ button.btn-icon::before {
     padding: 75px 0;
     width: 100%;
 }
+.personal-container {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+
+}
 .personal__title {
 }
 .personal__content {
@@ -367,25 +373,30 @@ button.btn-icon::before {
     justify-content: space-between;
     align-items: center;
     width: 360px;
+    height: 686px;
     background-color: #FAFAFA;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+.personal__item:last-child {
+    margin-left: 0;
 }
 .personal__img {
     border-top: 6px solid transparent;
     border-image: linear-gradient(271.25deg, #0559BC 15.34%, #0E2E87 87.46%);
     border-image-slice: 1;
-    width: 100%;
-    max-height: 396px;
+    width: 360px;
+    height: 396px;
 }
 .personal__img img {
     width: 100%;
 }
 .personal__item-container {
     padding: 30px 0;
-    width: 252px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .personal__subtitle {
