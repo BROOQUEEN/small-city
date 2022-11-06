@@ -830,5 +830,12 @@ button.btn-icon::before {
         margin-left: 65px;
         margin-bottom: 30px;
     }
+    .action {
+        height: 176px;
+        background-image: url('/images/action/action-bg-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
 }
 /* --------------- / Адаптив ---------------*/
