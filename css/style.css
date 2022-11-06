@@ -270,7 +270,6 @@ button.btn-icon::before {
 .about-us__block:first-child{
     background-image: url('/images/about-us/about-us-bg.jpg');
     height: 100%;
-
 }
 .about-us__block:last-child {
     width: 470px;
@@ -825,6 +824,11 @@ button.btn-icon::before {
         min-width: 116px;
         display: flex;
         align-items: center; 
+    }
+    .about-us__block:last-child {
+        width: 490px;
+        margin-left: 65px;
+        margin-bottom: 30px;
     }
 }
 /* --------------- / Адаптив ---------------*/
