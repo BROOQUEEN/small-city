@@ -367,6 +367,13 @@ button.btn-icon::before {
     right: -100px;
     cursor: pointer;
 }
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    cursor: pointer;
+}
+
 .slick-dots {
     position: absolute;
     bottom: 0;
@@ -376,7 +383,25 @@ button.btn-icon::before {
     align-items: center;
     margin-bottom: -100px;
     justify-content: center;
+    
 }
+.slick-dots button {
+    width: 80px;
+    height: 0px;
+    font-size: 0px;
+    border: 4px solid rgba(14, 46, 135, 0.38);
+    margin-left: 25px;
+}
+.slick-dots li:first-child button {
+    border-radius: 10px 0 0 10px;
+}
+.slick-dots li:last-child button {
+    border-radius: 0 10px 10px 0;
+}
+.slick-dots li[class="slick-active"] button {
+    background: #0E2E87;
+}
+
 .personal__item {
     display: flex;
     flex-direction: column;
@@ -494,8 +519,7 @@ button.btn-icon::before {
     height: 16px;
     margin-right: 10px;
 }
-.personal__btn {}
-.personal button {
+.personal__btn {
     display: block;
     width: 100%;
     text-align: center;
@@ -507,6 +531,7 @@ button.btn-icon::before {
     background: #0E2E87;
     border-radius: 0px 0px 4px 4px;
 }
+
 /* --------------- / Только лучшие специалисты ---------------*/
 
 /* --------------- Что о нас говорят  ---------------*/
