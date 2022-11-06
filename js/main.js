@@ -6,6 +6,6 @@ $(function(){
       infinite: true,
       variableWidth: true,
       slidesToShow: 3,
-      slidesToScroll: 2
+      slidesToScroll: 1
     });
 });
