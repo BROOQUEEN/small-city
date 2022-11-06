@@ -831,11 +831,38 @@ button.btn-icon::before {
         margin-bottom: 30px;
     }
     .action {
-        height: 176px;
         background-image: url('/images/action/action-bg-2.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
     }
-
+    .personal {
+        background-color: #F1F4FB;
+        padding: 75px 0 75px 0;
+    }
+    .personal-container {
+        width: 1110px;
+    }
+    /* .personal__content {
+        margin-bottom: 45px;
+    } */
+    .personal__lists {
+        margin-top: 75px;
+    }
+    .personal__item {
+        width: 350px;
+    }
+    .personal__img {
+        width: 350px;
+    }
+    .slick-dots {
+        margin-bottom: -80px;
+    }
+    .slick-dots button {
+        border: 3px solid rgba(14, 46, 135, 0.38);
+    }
+    .slick-arrow:first-child {
+        left: -90px;
+    }
+    .slick-arrow:last-child {
+        right: -90px;
+    }
 }
 /* --------------- / Адаптив ---------------*/
