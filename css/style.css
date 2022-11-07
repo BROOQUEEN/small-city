@@ -1025,6 +1025,18 @@ button.btn-icon::before {
     .action {
         background-image: url('/images/action/action-bg-2.jpg');
     }
+    .action__text {
+        width: 440px;
+        font-size: 14px;
+    }
+    .action__btn {
+        font-size: 16px;
+        padding: 10px 15px;
+        width: 250px;
+        height: 50px;
+        margin-left: 40px;
+        
+    }
     .personal {
         background-color: #F1F4FB;
         padding: 75px 0 100px 0;
