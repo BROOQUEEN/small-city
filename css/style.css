@@ -52,12 +52,13 @@ button {
     align-items: center;
 }
 .header__logo {
+    
+}
+.logo {
     padding: 25px 100px;
     color: white;
     background: transparent;
     border: 2px solid #FAFAFA;
-}
-.logo {
 }
 .header__phone a{
     font-size: 27px;
@@ -768,7 +769,7 @@ button.btn-icon::before {
 /* --------------- Адаптив ---------------*/
 @media (max-width: 1440px) {
     .container {
-        width: 1110px;
+        width: 1024px;
         margin: 0 auto;
         height: 100%;
     }
@@ -835,7 +836,7 @@ button.btn-icon::before {
     }
     .personal {
         background-color: #F1F4FB;
-        padding: 75px 0 75px 0;
+        padding: 75px 0 100px 0;
     }
     .personal-container {
         width: 1110px;
@@ -863,6 +864,144 @@ button.btn-icon::before {
     }
     .slick-arrow:last-child {
         right: -90px;
+    }
+    .comments {
+        padding: 75px 0 150px 0;
+        background-color: #FAFAFA;
+    }
+    .contact__vk {
+        padding: 8px 10px;
+        width: 240px;
+        height: 38px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 724px;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .logo {
+        padding: 15px 80px;
+        color: white;
+        background: transparent;
+        border: 2px solid #FAFAFA;
+    }
+    .header__phone a{
+        font-size: 20px;
+    }
+    .promo__title {
+        font-size: 40px;
+        color: white;
+        line-height: 48px;
+    }
+    .promo__title span{
+        font-size: 28px;
+    }
+    .promo__buttons {
+        margin-top: 30px;
+        
+    }
+    .promo__btn {
+        padding: 10px 15px;
+        color: white;
+        background: transparent;
+        border: 2px solid #FAFAFA;
+        border-radius: 4px;
+
+    }
+    .btn {
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .bg-white {
+        background-color: white;
+        color: #0E2E87;
+        margin-right: 20px;
+        border: 2px solid #FAFAFA;
+    }
+    .btn-icon {
+        position: relative;
+        padding-left: 50px;
+    }
+    button.btn-icon::before {
+        left: 15px;
+        top: 8px;
+    }
+    .services__item {
+        width: 350px;
+        height: 458px;
+    }
+    .services__item-container {
+        padding: 30px 0;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .services__item-container-checks{
+        padding: 30px 0;
+        width: 270px;
+        margin: 0 auto;
+    }
+    .services__type {
+        font-size: 18px;
+        margin: 14px 0 14px 0;
+    }
+    .services__item__check {
+        margin-bottom: 25px;
+        min-width: 116px;
+        display: flex;
+        align-items: center; 
+    }
+    .about-us__block:last-child {
+        width: 490px;
+        margin-left: 65px;
+        margin-bottom: 30px;
+    }
+    .action {
+        background-image: url('/images/action/action-bg-2.jpg');
+    }
+    .personal {
+        background-color: #F1F4FB;
+        padding: 75px 0 100px 0;
+    }
+    .personal-container {
+        width: 1110px;
+    }
+    /* .personal__content {
+        margin-bottom: 45px;
+    } */
+    .personal__lists {
+        margin-top: 75px;
+    }
+    .personal__item {
+        width: 350px;
+    }
+    .personal__img {
+        width: 350px;
+    }
+    .slick-dots {
+        margin-bottom: -80px;
+    }
+    .slick-dots button {
+        border: 3px solid rgba(14, 46, 135, 0.38);
+    }
+    .slick-arrow:first-child {
+        left: -90px;
+    }
+    .slick-arrow:last-child {
+        right: -90px;
+    }
+    .comments {
+        padding: 75px 0 150px 0;
+        background-color: #FAFAFA;
+    }
+    .contact__vk {
+        padding: 8px 10px;
+        width: 240px;
+        height: 38px;
+        font-size: 18px;
     }
 }
 /* --------------- / Адаптив ---------------*/
