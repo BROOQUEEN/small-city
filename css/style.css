@@ -272,10 +272,15 @@ button.btn-icon::before {
 .about-us__block:first-child{
     background-image: url('/images/about-us/about-us-bg.jpg');
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .about-us__block:last-child {
-    width: 470px;
+    
     margin-left: 100px;
+}
+.about-us__block-container {
+    width: 470px;
 }
 .about-us__block img {
     height: 100%;  
@@ -1002,10 +1007,20 @@ button.btn-icon::before {
         line-height: 27px;
         padding: 10px 15px;
     }
-    .about-us__block:last-child {
-        width: 490px;
-        margin-left: 65px;
-        margin-bottom: 30px;
+    .about-us {
+        height: 450px;
+    }
+    .about-us__content {
+        align-items: center;
+    }
+    .about-us__block-container {
+        width: 400px;
+    }
+    .about-us__title {
+        font-size: 26px;
+    }
+    .about-us__text {
+        font-size: 14px;
     }
     .action {
         background-image: url('/images/action/action-bg-2.jpg');
