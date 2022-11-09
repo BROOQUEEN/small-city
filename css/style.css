@@ -1103,6 +1103,12 @@ button.btn-icon::before {
     .container {
         width: 290px;
     }
+    .title {
+        font-size: 14px;
+    }
+    .subtitle {
+        font-size: 12px;
+    }
     .header {
         display: none;
     }
@@ -1208,6 +1214,43 @@ button.btn-icon::before {
     .promo__buttons button:last-child {
         display: none;
         
+    }
+
+    .services__lists {
+        flex-direction: column;
+    }
+
+
+    .services {
+        padding: 15px;
+    }
+    .services__content {
+        margin-bottom: 35px;
+    }
+    .services__lists {
+        margin-top: 35px;
+        align-items: center;
+    }
+    .services__item {
+        flex-direction: column;
+        width: 222px;
+        height: 294px;
+        margin-bottom: 60px;
+    }
+
+    .services__type {
+        font-size: 12px;
+        padding: 8px 11px;
+        margin: 14px 0 14px 0;
+
+    }
+    .services__values-text {
+        font-size: 10px;
+    }
+        .services button {
+        font-size: 14px;
+        line-height: 27px;
+        padding: 10px 15px;
     }
 }
 
