@@ -1252,6 +1252,36 @@ button.btn-icon::before {
         line-height: 27px;
         padding: 10px 15px;
     }
+
+    .about-us {
+        height: 545px;
+        margin-bottom: 26px;
+    }
+    .about-us__content {
+        align-items: center;
+    }
+    .about-us__block:first-child {
+        min-height: 206px;
+        width: 100%;
+    }
+    .about-us__block:last-child {
+        width: 100%;
+        margin: 0;
+    }
+    .about-us__block-container {
+        width: 262px;
+        margin: 0 auto;
+    }
+    .about-us__title {
+        font-size: 16px;
+        margin: 26px 0 20px;
+    }
+    .about-us__text {
+        font-size: 12px;
+    }
+    .about-us__content {
+        flex-direction: column;
+    }
 }
 
 
