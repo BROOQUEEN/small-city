@@ -1291,6 +1291,7 @@ button.btn-icon::before {
     .personal {
         background-color: #F1F4FB;
         padding: 0;
+        padding-bottom: 68px;
     }
     .personal-container {
         width: 100%;
@@ -1302,7 +1303,7 @@ button.btn-icon::before {
         width: 215px;
     }
     .personal__content {
-    
+        margin-bottom: 0;
     }
     .personal__lists {
         width: 100%;
@@ -1408,18 +1409,21 @@ button.btn-icon::before {
     }
 
 
-    .slick-arrow:first-child {
+    .personal__lists img.slick-arrow:first-child {
         position: absolute;
         top: 50%;
         left: 10px;
         cursor: pointer;
+        width: 10px;
+        height: 18px;
     }
-    .slick-arrow:last-child {
+    .personal__lists img.slick-arrow:la{
         position: absolute;
         top: 50%;
         right: 50px;
         cursor: pointer;
         z-index: 555;
+        
     }
     .slick-arrow {
         position: absolute;
@@ -1427,12 +1431,15 @@ button.btn-icon::before {
         right: 10px;
         cursor: pointer;
     }
+    .slick-dots {
+        margin-bottom: -32px;
+    }
     .slick-dots button {
         width: 20px;
         height: 0px;
         font-size: 0px;
         border: 2px solid rgba(14, 46, 135, 0.38);
-        margin-left: 20px;
+        margin-left: 12px;
     }
 
 }
