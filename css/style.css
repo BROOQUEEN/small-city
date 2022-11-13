@@ -1236,10 +1236,10 @@ button.btn-icon::before {
 
 
     .services {
-        padding: 15px;
+        padding: 15px 0 0 0;
     }
     .services__content {
-        margin-bottom: 35px;
+        margin: 0;
     }
     .services__lists {
         margin-top: 35px;
@@ -1250,6 +1250,9 @@ button.btn-icon::before {
         width: 222px;
         height: 294px;
         margin-bottom: 60px;
+    }
+    .services__item:last-child {
+        margin-bottom: 80px;
     }
 
     .services__type {
