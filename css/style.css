@@ -309,6 +309,9 @@ button.btn-icon::before {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.action-mobile {
+    display: none;
+}
 .action__content {
     display: flex;
     justify-content: space-between;
@@ -550,6 +553,9 @@ button.btn-icon::before {
 .comments {
     padding: 75px 0 140px 0;
     background-color: #FAFAFA;
+}
+.comments__comments-mobile {
+    display: none;
 }
 .comments__content {
     display: flex;
@@ -1499,8 +1505,6 @@ button.btn-icon::before {
     }
     .comments__comments {
     }
-    .comments__comments-mobile {
-    }
     .comments__item {
         width: 222px;
         height: 307px;
@@ -1549,6 +1553,9 @@ button.btn-icon::before {
     }
     .comments__comments-mobile {
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .comments__item {
         width: 222px;
