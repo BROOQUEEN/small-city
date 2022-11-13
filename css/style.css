@@ -1583,6 +1583,7 @@ button.btn-icon::before {
 
     .action-mobile {
         display: block;
+        background: linear-gradient(271.25deg, #0559BC 15.34%, #0E2E87 87.46%);
     }
     .action__content {
         flex-direction: column;
@@ -1598,6 +1599,10 @@ button.btn-icon::before {
         margin-top: 20px;
     }
     .action__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0E2E87;
         padding: 14px 30px;
         width: 262px;
         height: 48px;
