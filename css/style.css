@@ -1438,7 +1438,7 @@ button.btn-icon::before {
     }
 
 
-    .personal__lists img.slick-arrow:first-child {
+    .personal__lists img.slick-arrow:nth-child(1) {
         position: absolute;
         top: 50%;
         left: 10px;
@@ -1446,12 +1446,13 @@ button.btn-icon::before {
         width: 10px;
         height: 18px;
     }
-    .personal__lists img.slick-arrow:last-child{
+    .personal__lists img.slick-arrow:nth-child(3){
         position: absolute;
         top: 50%;
-        right: 50px;
+        right: 10px;
         cursor: pointer;
-        z-index: 555;
+        width: 10px;
+        height: 18px;
         
     }
     .slick-arrow {
