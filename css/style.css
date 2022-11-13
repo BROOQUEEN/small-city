@@ -785,10 +785,69 @@ button.btn-icon::before {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------- Адаптив ---------------*/
 @media (max-width: 1440px) {
     .container {
-        width: 1024px;
+        width: 1110px;
         margin: 0 auto;
         height: 100%;
     }
@@ -895,6 +954,64 @@ button.btn-icon::before {
         font-size: 18px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1024px) {
     .container {
@@ -1108,6 +1225,46 @@ button.btn-icon::before {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 320px) {
     .container {
         width: 290px;
@@ -1179,23 +1336,6 @@ button.btn-icon::before {
         left: 10px;
         top: 11px;
     }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     .promo {
@@ -1617,17 +1757,6 @@ button.btn-icon::before {
         margin: 20px 0 32px 0;
     }
 
-
-
-
-
-
-
-
-
-
-
-
     .contact {
         height: 100%;
         background-image: none;
@@ -1727,11 +1856,6 @@ button.btn-icon::before {
         font-weight: 500;
     }
 
-
-
-
-
-
     .documents {
         width: 100%;
         height: auto;
@@ -1762,9 +1886,6 @@ button.btn-icon::before {
     .documents__item:first-child {
         margin-top: 0;
     }
-
-
-
 
     .footer {
         padding: 40px 0;
