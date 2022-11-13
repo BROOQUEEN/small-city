@@ -1703,7 +1703,51 @@ button.btn-icon::before {
 
 
 
-
+    .footer {
+        padding: 40px 0;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        background: #111111;
+    }
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo {
+        padding: 25px 100px;
+        color: white;
+        background: transparent;
+        border: 2px solid #FAFAFA;
+    }
+    .footer__block {
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        
+        justify-content: center;
+    }
+    .footer__block img {
+        margin-left: 3px;
+        margin-right: 6px;
+    }
+    .footer__company {
+        margin-top: 26px;
+        width: 262px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+    .footer__developer {
+        margin-top: 14px;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: rgba(255, 255, 255, 0.67);
+    }
 
 }
 
