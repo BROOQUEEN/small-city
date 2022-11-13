@@ -1634,7 +1634,7 @@ button.btn-icon::before {
     }
     .contact__block {
         display: flex;
-        padding: 50px 0;
+        padding: 30px 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -1661,11 +1661,14 @@ button.btn-icon::before {
     .contact__text {
         font-size: 14px;
         line-height: 17px;
-        padding-bottom: 0;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 16px;
         margin-bottom: 16px;
     }
-    .contact__phone {
-        margin-bottom: 28px;
+    a.contact__phone {
+        margin-bottom: 19px;
         padding-left: 30px;
         position: relative;
         font-size: 14px;
@@ -1673,12 +1676,11 @@ button.btn-icon::before {
     }
     .contact__phone::before {
         content: url('/images/icons/phone-blue.png');
-        margin-right: 12px;
         position: absolute;
-        left: 0;
+        left: 6px;
     }
     .contact__email {
-        margin-bottom: 28px;
+        margin-bottom: 16px;
         padding-left: 30px;
         position: relative;
         font-size: 14px;
@@ -1686,9 +1688,8 @@ button.btn-icon::before {
     }
     .contact__email::before {
         content: url('/images/icons/email-blue.png');
-        margin-right: 12px;
         position: absolute;
-        left: 0;
+        left: 6px;
     }
     .contact__vk {
         display: flex;
@@ -1729,7 +1730,7 @@ button.btn-icon::before {
         height: auto;
         background: #222222;
         box-sizing: border-box;
-        padding: 20px 0;
+        padding: 30px 0;
     }
     .documents__content {
         height: 100%;
