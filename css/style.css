@@ -1283,7 +1283,7 @@ button.btn-icon::before {
         flex-direction: column;
     }
 
-    .action-one {
+    .action {
         display: none;
     }
 
@@ -1526,6 +1526,30 @@ button.btn-icon::before {
 
     .slick-arrow:first-child {
         left: -10px;
+    }
+
+    .action-mobile {
+        display: block;
+    }
+    .action__content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .action__text {
+        width: 262px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 194%;
+        margin-top: 20px;
+    }
+    .action__btn {
+        padding: 14px 30px;
+        width: 262px;
+        height: 48px;
+        box-sizing: border-box;
+        margin: 20px 0 32px 0;
     }
 }
 
