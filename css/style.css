@@ -1663,6 +1663,48 @@ button.btn-icon::before {
         line-height: 17px;
         font-weight: 500;
     }
+
+
+
+
+
+
+    .documents {
+        width: 100%;
+        height: auto;
+        background: #222222;
+        box-sizing: border-box;
+        padding: 20px 0;
+    }
+    .documents__content {
+        height: 100%;
+    }
+    .documents__lists {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .documents__item {
+        margin-top: 20px;
+    }
+    .documents__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 194%;
+        color: #FAFAFA;
+        
+    }
+    .documents__item:first-child {
+        margin-top: 0;
+    }
+
+
+
+
+
+
 }
 
 
