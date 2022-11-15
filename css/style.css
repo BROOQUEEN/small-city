@@ -955,6 +955,63 @@ button.btn-icon::before {
     }
 }
 
+@media (max-width: 1350px) {
+    .container {
+        width: 1010px;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .promo__title {
+        font-size: 52px;
+    }
+    .promo__title span{
+        font-size: 36px;
+    }
+    .promo__buttons {
+        margin-top: 38px;
+    }
+    .promo__btn {
+        padding: 13px 18px;
+        font-size: 20px;
+    }
+    .services__item {
+        width: 320px;
+        height: 430px;
+    }
+    .services button {
+        font-size: 20px;
+        padding: 19px 34px;
+    }
+    .about-us {
+        height: 530px;
+    }
+    .about-us__title {
+        font-size: 30px;
+    }
+    .about-us__text {
+        font-size: 17px;
+    }
+    .action__text {
+        width: 635px;
+        font-size: 19px;
+    }
+    .action__btn {
+        font-size: 22px;
+        line-height: 27px;
+        padding: 8px 26px;
+        width: 305px;
+        height: 72px;
+    }
+    .personal-container {
+        width: 1050px;
+    }
+    .personal__item {
+        width: 335px;
+    }
+    .personal__img {
+        width: 335px;
+    }
+}
 
 
 
