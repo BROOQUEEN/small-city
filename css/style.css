@@ -1011,6 +1011,39 @@ button.btn-icon::before {
     .personal__img {
         width: 335px;
     }
+    .comments__item {
+        justify-content: start;
+        width: 1140px;
+        height: 344px;
+    }
+    .comments__block {
+        width: 690px;
+        height: 212px;
+        margin-left: 50px;
+    }
+    .comments__block__text {
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+    .comments__photo {
+        height: 156px;
+        width: 156px;
+        margin-left: 50px;
+    }
+    .action {
+        height: 140px;
+
+    }
+    .action__text {
+        width: 594px;
+        font-size: 19px;
+    }
+    .action__btn {
+        font-size: 19px;
+        padding: 5px 26px;
+        width: 302px;
+        height: 66px;
+    }
 }
 
 
