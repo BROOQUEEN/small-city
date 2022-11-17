@@ -52,14 +52,10 @@ button {
     align-items: center;
 }
 .header__logo {
-    
+    height: 72px;
+    width: 310px;
 }
-.logo {
-    padding: 25px 100px;
-    color: white;
-    background: transparent;
-    border: 2px solid #FAFAFA;
-}
+
 .header__phone a{
     font-size: 27px;
     color: white;
@@ -758,10 +754,8 @@ button.btn-icon::before {
     justify-content: space-between;
 }
 .footer__logo {
-    padding: 25px 100px;
-    color: white;
-    background: transparent;
-    border: 2px solid #FAFAFA;
+    height: 72px;
+    width: 244px;
 }
 .footer__block {
     display: flex;
