@@ -1977,6 +1977,304 @@ button.btn-icon::before {
 
 }
 
+@media (max-width: 900px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .logo {
+        width: 170px;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .subtitle {
+        font-size: 12px;
+    }
+    .header__phone a{
+        font-size: 16px;
+    }
+    .promo {
+        min-height: 100%;;
+        max-height: 600px;
+    }
+    .promo__title {
+        font-size: 30px;
+    }
+    .promo__title span{
+        font-size: 22px;
+    }
+    .promo__buttons {
+        margin-top: 20px;
+    }
+    .promo__btn {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    button.btn-icon::before {
+        left: 13px;
+    }
+    .promo__buttons button:last-child{
+        padding-left: 50px;
+    }
+    .services {
+        padding: 40px 0;
+    }
+    .services__item-container {
+        width: 155px;
+    }
+    .services__lists {
+        margin-top: 40px;
+        align-items: center;
+    }
+    .services__item {
+        width: 190px;
+        height: 280px;
+    }
+    .services button {
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+    .services__img {
+        height: auto;
+    }
+    .services__type {
+        font-size: 10px;
+        margin: 10px 0 10px 0;
+        padding: 6px 14px;
+        width: 143px;
+    }
+    .services__item__check {
+        margin-bottom: 20px;
+        min-width: 116px;
+    }
+    .services__values{
+        justify-content: space-around;
+        width: 180px;
+    }
+    .services__values-text img {
+        width: 13px;
+        height: 13px;
+    }
+    .services__values-text p {
+        margin-left: 11px;
+        line-height: 20px;
+        font-size: 10px;
+        color: #656565;
+        font-weight: 500;
+    }
+    .services__item__check p {
+        font-size: 9px;
+    }
+    .services__item__check img {
+        width: 13px;
+        height: 13px;
+        margin-right: 7px;
+    }
+    .services__item-container-checks{
+        padding: 15px 0;
+        width: 170px;
+        margin: 0 auto;
+    }
+    .services__item__check {
+        min-width: 74px;
+    }
+    .about-us {
+        height: 310px;
+    }
+    .about-us__block-container {
+        width: 351px;
+    }
+    .about-us__block:last-child {
+        width: 50%;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .about-us__title {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .about-us__text {
+        font-size: 12px;
+    }
+    .action {
+        height: 80px;
+    }
+    .action__text {
+        width: 345px;
+        font-size: 10px;
+    }
+    .action__btn {
+        font-size: 12px;
+        padding: 5px 10px;
+        width: 185px;
+        height: 33px;
+    }
+    .personal {
+        padding: 40px 0 90px 0;
+    }
+    .personal-container {
+        width: 600px;
+    }
+    .personal__item-container {
+        padding: 18px 0;
+    }
+    .personal__lists {
+        margin-top: 50px;
+    }
+    .personal__item {
+        width: 189px;
+        margin-left: 15px;
+    }
+    .comments__item {
+        height: 245px;
+        margin-left: 50px;
+        width: 650px;
+    }
+    .personal__type {
+        font-size: 10px;
+        margin: 8px 0 0 0;
+        padding: 5px 16px;
+        width: 144px;
+        height: 26px;
+    }
+    .personal__values-text img {
+        width: 14px;
+        height: 14px;
+    }
+    .personal__values-text p {
+        margin-left: 6px;
+        font-size: 10px;
+    }
+    .personal__values-text:last-child::before {
+        width: 15px;
+        height: 1px;
+    }
+    .personal__values-text:last-child::after {
+        width: 15px;
+        height: 1px;
+        margin-left: 8px;
+    }
+    .personal__values-text:last-child {
+        margin-top: 10px;
+        width: 176px;
+    }
+    .personal__btn {
+        font-size: 12px;
+        padding: 9px 9px;
+    }
+    }
+    .comments {
+        padding: 40px 0 35px 0;
+    }
+    .comments__title {
+        margin-bottom: 40px;
+    }
+    .comments__photo {
+        height: 100px;
+        width: 100px;
+        margin-left: 35px;
+    }
+    .comments__block__text {
+        font-size: 12px;
+        margin-bottom: 18px;
+    }
+    .comments__block__rating {
+        width: 100px;
+    }
+    .comments__block__rating img {
+        width: 15px;
+        height: 15px;
+    }
+    .services button {
+        font-size: 12px;
+        padding: 8px 8px;
+    }
+    .comments__block {
+        width: 372px;
+        height: auto;
+        margin-left: 35px;
+    }
+    .comments__block__sibtitle {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .contact {
+        height: 350px;
+    }
+    .contact__block {
+        width: 250px;
+        height: 250px;
+        padding: 0 20px;
+    }
+    .contact__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .contact__text {
+        font-size: 12px;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+    .contact__phone {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .contact__email {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .contact__vk {
+        padding: 8px 6px;
+        width: 191px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .contact__vk p {
+        font-size: 11px;
+        margin-left: 3px;
+    }
+    .documents {
+        width: 100%;
+        height: 85px;
+        background: #222222;
+        box-sizing: border-box;
+    }
+    .documents__link {
+        font-size: 14px;
+    }
+    .footer {
+        padding: 40px 0;
+        width: 100%;
+        height: 85px;
+        box-sizing: border-box;
+        background: #111111;
+    }
+    .footer__company {
+        font-size: 10px;
+    }
+    .footer__developer {
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .footer__block img {
+        margin-left: 3px;
+        width: 12px;
+        margin-right: 6px;
+    }
+    .slick-dots {
+        margin-bottom: -75px;
+    }
+    .slick-arrow:nth-child(1) {
+        left: -75px;
+    }
+    .slick-arrow:nth-child(3) {
+        right: -65px;
+    }
+
+}
+
 /* Планшеты максимум  768px*/
 
 /* Мобильная максиму 480px */
