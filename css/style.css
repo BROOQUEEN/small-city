@@ -1708,6 +1708,279 @@ button.btn-icon::before {
     }
 }
 
+@media (max-width: 1000px) {
+    .container {
+        width: 700px;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .logo {
+        width: 230px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    .header__phone a{
+        font-size: 18px;
+    }
+    .promo__title {
+        font-size: 37px;
+    }
+    .promo__title span{
+        font-size: 26px;
+    }
+    .promo__buttons {
+        margin-top: 20px;
+    }
+    .promo__btn {
+        padding: 12px 16px;
+        font-size: 15px
+    }
+    button.btn-icon::before {
+        left: 13px;
+    }
+    .promo__buttons button:last-child{
+        padding-left: 50px;
+    }
+    .services {
+        padding: 40px 0;
+    }
+    .services__item-container {
+        width: 155px;
+    }
+    .services__lists {
+        margin-top: 60px;
+        align-items: center;
+    }
+    .services__item {
+        width: 221px;
+        height: 315px;
+    }
+    .services button {
+        font-size: 18px;
+        padding: 15px 15px;
+    }
+    .services__img {
+        height: auto;
+    }
+    .services__type {
+        font-size: 12px;
+        margin: 10px 0 10px 0;
+        padding: 6px 14px;
+        width: 143px;
+    }
+    .services__item__check {
+        margin-bottom: 20px;
+        min-width: 116px;
+    }
+    .services__values{
+        justify-content: space-around;
+        width: 180px;
+    }
+    .services__values-text img {
+        width: 13px;
+        height: 13px;
+    }
+    .services__values-text p {
+        margin-left: 11px;
+        line-height: 20px;
+        font-size: 11px;
+        color: #656565;
+        font-weight: 500;
+    }
+    .services__item__check p {
+        font-size: 11px;
+    }
+    .services__item__check img {
+        width: 13px;
+        height: 13px;
+        margin-right: 7px;
+    }
+    .services__item-container-checks{
+        padding: 15px 0;
+        width: 198px;
+        margin: 0 auto;
+    }
+    .services__item__check {
+        min-width: 90px;
+    }
+    .about-us {
+        height: 360px;
+    }
+    .about-us__block-container {
+        width: 380px;
+    }
+    .about-us__block:last-child {
+        width: 50%;
+        margin-left: 50px;
+    }
+    .about-us__title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .about-us__text {
+        font-size: 13px;
+    }
+    .action {
+        height: 100px;
+    }
+    .action__text {
+        width: 390px;
+        font-size: 12px;
+    }
+    .action__btn {
+        font-size: 12px;
+        padding: 5px 26px;
+        width: 210px;
+        height: 39px;
+    }
+    .personal {
+        padding: 40px 0 90px 0;
+    }
+    .personal-container {
+        width: 700px;
+    }
+    .personal__lists {
+        margin-top: 50px;
+    }
+    .personal__item {
+        width: 220px;
+        margin-left: 20px;
+    }
+    .comments__item {
+        height: 300px;
+        margin-left: 50px;
+        width: 800px;
+    }
+    .personal__type {
+        font-size: 12px;
+        margin: 10px 0 0 0;
+        padding: 5px 16px;
+        width: 144px;
+        height: 26px;
+    }
+    .personal__values-text img {
+        width: 14px;
+        height: 14px;
+    }
+    .personal__values-text p {
+        margin-left: 6px;
+        font-size: 11px;
+    }
+    .personal__values-text:last-child::before {
+        width: 18px;
+        height: 1px;
+    }
+    .personal__values-text:last-child::after {
+        width: 18px;
+        height: 1px;
+        margin-left: 8px;
+    }
+    .personal__values-text:last-child {
+        margin-top: 18px;
+        width: 212px;
+    }
+    .personal__btn {
+        font-size: 13px;
+        padding: 11px 14px;
+    }
+    .comments {
+        padding: 40px 0 85px 0;
+    }
+    .comments__title {
+        margin-bottom: 40px;
+    }
+    .comments__photo {
+        height: 120px;
+        width: 120px;
+        margin-left: 50px;
+    }
+    .comments__block__text {
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+    .comments__block__rating {
+        width: 125px;
+    }
+    .comments__block__rating img {
+        width: 18px;
+        height: 18px;
+    }
+    .services button {
+        font-size: 14px;
+        padding: 12px 12px;
+    }
+    .comments__block {
+        width: 435px;
+        height: auto;
+        margin-left: 50px;
+    }
+    .comments__block__sibtitle {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .contact {
+        height: 400px;
+    }
+    .contact__block {
+        width: 300px;
+        height: 300px;
+    }
+    .contact__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .contact__text {
+        font-size: 14px;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+    .contact__phone {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .contact__email {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .contact__vk {
+        padding: 8px 6px;
+        width: 191px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .contact__vk p {
+        font-size: 14px;
+        margin-left: 3px;
+    }
+    .documents__link {
+        font-size: 16px;
+    }
+    .footer__company {
+        font-size: 12px;
+    }
+    .footer__developer {
+        font-size: 12px;
+    }
+    .slick-dots {
+        margin-bottom: -75px;
+    }
+    .slick-arrow:nth-child(1) {
+        left: -75px;
+    }
+    .slick-arrow:nth-child(3) {
+        right: -65px;
+    }
+
+}
+
+/* Планшеты максимум  768px*/
+
+/* Мобильная максиму 480px */
+
 
 
 
