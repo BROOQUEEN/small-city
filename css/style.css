@@ -1697,8 +1697,11 @@ button.btn-icon::before {
     .slick-dots {
         margin-bottom: -75px;
     }
-    .btn-icon {
-        
+    .slick-arrow:nth-child(1) {
+        left: -75px;
+    }
+    .slick-arrow:nth-child(3) {
+        right: -65px;
     }
     .logo {
         width: 245px;
