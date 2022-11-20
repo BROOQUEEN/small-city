@@ -3420,6 +3420,84 @@ button.btn-icon::before {
 }
 
 
+
+@media (max-width: 650px) {
+    .container {
+        width: 450px;
+    }
+    .title {
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 50px;
+    }
+    .subtitle {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .promo__title {
+        font-size: 46px;
+    }
+    .promo__title span {
+        font-size: 32px;
+    }
+    .promo__btn {
+        padding: 18px 118px;
+        font-size: 23px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .personal-container {
+        width: 400px;
+    }
+    .personal__item {
+        width: 400px;
+        margin-left: 15px;
+    }
+    .personal__btn {
+        font-size: 28px;
+        padding: 33px 9px;
+    }
+    .comments__comments-mobile {
+        width: 400px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .comments__photo {
+        background-image: url(/images/comments/image-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .comments__specialist-subtitle {
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .comments__block__rating {
+        margin-top: 7px;
+        width: 120px;
+    }
+    .comments__block__rating img {
+        width: 18px;
+        height: 18px;
+    }
+    .comments__block__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+    }
+}
+
+
 /* Мобильная максиму 480px */
 
 
