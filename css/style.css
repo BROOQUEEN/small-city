@@ -2278,6 +2278,9 @@ button.btn-icon::before {
     .container {
         width: 580px;
     }
+    .logo {
+        width: 250px;
+    }
     .title {
         font-size: 28px;
         width: 400px;
@@ -2800,6 +2803,57 @@ button.btn-icon::before {
         height: auto;
         background: #222222;
         box-sizing: border-box;
+    }
+    .documents__item {
+        margin-bottom: 15px;
+    }
+    .documents__item:last-child {
+        margin-bottom: 0;
+    }
+    .documents__link {
+        font-size: 20px;
+    }
+
+
+    .footer {
+        padding: 40px 0;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        background: #111111;
+    }
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__block {
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        
+        justify-content: center;
+    }
+    .footer__block img {
+        margin-left: 3px;
+        margin-right: 6px;
+    }
+    .footer__company {
+        margin-top: 26px;
+        width: 400px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+    .footer__developer {
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 12px;
+        color: rgba(255, 255, 255, 0.67);
     }
 }
 /* Планшеты максимум  768px*/
