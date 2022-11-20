@@ -65,7 +65,7 @@ button {
     padding-left: 75px;
 }
 .header__phone-link::before {
-    content: url('/images/icons/phone.png');
+    content: url('/images/icons/phone-white.svg');
     position: absolute;
     left: 30px;
 }
@@ -2332,22 +2332,24 @@ button.btn-icon::before {
         font-size: 24px;
         line-height: 15px;
         color: white;
-        
+        margin-left: 23px;
     }
     .header__phone-mobile:last-child p{
         color: #0E2E87;
     }
     .header__phone-mobile:first-child .header__phone-mobile__link-icon {
-        content: url('/images/icons/phone-mobile.png');
+        content: url('/images/icons/phone-white.svg');
         position: absolute;
         left: 8px;
-        
+        top: 12px;
+        width: 25px;
     }
     .header__phone-mobile:last-child .header__phone-mobile__link-icon {
-        content: url('/images/icons/vk-mobile.png');
+        content: url('/images/icons/vk-blue.svg');
         position: absolute;
-        left: 10px;
-        top: 11px;
+        left: 13px;
+        top: 12px;
+        width: 25px;
     }
     .promo {
         width: 100%;
@@ -2877,7 +2879,7 @@ button.btn-icon::before {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 200px;
+        width: 188px;
         height: 50px;
         border: 2px solid #FAFAFA;
         border-radius: 4px;
@@ -2902,16 +2904,15 @@ button.btn-icon::before {
         color: #0E2E87;
     }
     .header__phone-mobile:first-child .header__phone-mobile__link-icon {
-        content: url('/images/icons/phone-mobile.png');
+        content: url('/images/icons/phone-white.svg');
         position: absolute;
         left: 8px;
-        
+        width: 22px;
     }
     .header__phone-mobile:last-child .header__phone-mobile__link-icon {
-        content: url('/images/icons/vk-mobile.png');
-        position: absolute;
-        left: 10px;
-        top: 11px;
+        top: 12px;
+        left: 11px;
+        width: 24px;
     }
     .promo {
         width: 100%;
@@ -3786,12 +3787,23 @@ button.btn-icon::before {
     .header__phone-mobile__link p {
         font-size: 18px;
         line-height: 15px;
+        margin-left: 10px;
     }
     .header__phone-mobile {
         width: 160px;
         height: 45px;
         border: 2px solid #FAFAFA;
         border-radius: 4px;
+    }
+    .header__phone-mobile:first-child .header__phone-mobile__link-icon {
+        left: 8px;
+        top: 11px;
+        width: 19px;
+    }
+    .header__phone-mobile:last-child .header__phone-mobile__link-icon {
+        top: 10px;
+        left: 10px;
+        width: 20px;
     }
     .promo__title {
         font-size: 36px;
@@ -4003,6 +4015,7 @@ button.btn-icon::before {
     .header__phone-mobile__link p {
         font-size: 16px;
         line-height: 15px;
+        margin-left: 22px;
     }
     .header__phone-mobile {
         width: 135px;
