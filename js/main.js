@@ -17,7 +17,7 @@ $(function(){
       nextArrow: '<img src="/images/icons/arrow-right.svg" alt="">',
       infinite: true,
       variableWidth: true,
-      slidesToShow: 3,
+      slidesToShow: 1,
       slidesToScroll: 1
     });
 });
