@@ -2286,7 +2286,7 @@ button.btn-icon::before {
         line-height: 50px;
     }
     .subtitle {
-        font-size: 27px;
+        font-size: 33px;
         margin-bottom: 15px;
     }
     .header {
@@ -2311,8 +2311,8 @@ button.btn-icon::before {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 160px;
-        height: 43px;
+        width: 200px;
+        height: 50px;
         border: 2px solid #FAFAFA;
         border-radius: 4px;
         box-sizing: border-box;
@@ -2327,7 +2327,7 @@ button.btn-icon::before {
     }
     .header__phone-mobile__link p {
         font-weight: 600;
-        font-size: 16px;
+        font-size: 24px;
         line-height: 15px;
         color: white;
         
@@ -2466,11 +2466,341 @@ button.btn-icon::before {
 
 
 
-    .personal__item {
-        width: 580px;
-        margin-left: 15px;
+    .personal-container {
+        width: 482px;
+    }
+    .personal__item-container {
+        padding: 40px 0;
     }
 
+    .personal__item {
+        width: 482px;
+        margin-left: 15px;
+    }
+    .personal__values-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        padding-right: 4px;
+    }
+    .personal__values-text p {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    
+    .personal__type {
+        font-size: 22px;
+        margin: 20px 0 20px 0;
+        padding: 5px 16px;
+        width: 245px;
+        height: 40px;
+    }
+    .personal__values-text:last-child {
+        margin-top: 10px;
+        width: 308px;
+    }
+    .personal__btn {
+        font-size: 33px;
+        padding: 40px 9px;
+    }
+    .slick-arrow:nth-child(1) {
+        left: -90px;
+        height: 40px;
+    }
+    .slick-arrow:nth-child(3) {
+        right: -90px;
+        height: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .comments {
+        padding: 34px 0 130px 0;
+        background-color: #FAFAFA;
+    }
+    .comments__comments-desktop {
+        display: none;
+    }
+    .comments__item {
+        flex-direction: column;
+        
+        background-color: green;
+        background-color: white;
+    }
+    .contact__vk {
+        padding: 8px 10px;
+        width: 240px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+
+    .comments__title {
+        margin: 0;
+        margin-bottom: 34px;
+    }
+    .comments__comments {
+    }
+    .comments__item {
+        width: 222px;
+        height: 307px;
+        box-sizing: border-box;
+    }
+    .comments__info {
+        margin-left: 15px;
+        width: 182px;
+        display: flex;
+        flex-direction: column;
+    }
+    .comments__specialist {
+        display: flex;
+        width: 100%;
+    }
+    .comments__photo {
+        background-image: url(/images/comments/image-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .comments__specialist-subtitle {
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 26px;
+    }
+    .comments__block__rating {
+        margin-top: 7px;
+        width: 128px;
+    }
+    .comments__block__rating img {
+        width: 20px;
+        height: 20px;
+    }
+    .comments__block__text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+    }
+
+
+    .comments__specialist {
+        margin-bottom: 25px;
+    }
+    .comments__comments-mobile {
+        width: 482px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .comments__item {
+        width: 482px;
+        height: auto;
+        padding: 20px 50px;
+        margin-left: 40px;
+        box-sizing: border-box;
+    }
+    .draggable {
+        background-color: #FAFAFA;
+        width: 482px;
+    }
+    .comments__slider {
+        background-color: inherit;
+        width: 100%;
+        height: auto;
+    }
+    .slick-arrow:nth-child(1) {
+        top: 50%;
+        left: -90px;
+        width: 22px;
+        height: 51px;
+        z-index: 5555;
+    }
+    .slick-arrow:nth-child(3) {
+        width: 22px;
+        height: 51px;
+        top: 50%;
+        right: -90px;
+        z-index: 5555;
+    }
+    .personal__values-text:last-child::before {
+        width: 40px;
+        height: 2px;
+    }
+    .personal__values-text:last-child::after {
+        width: 40px;
+        height: 2px;
+        margin-left: 8px;
+    }
+    .personal__values-text img {
+        width: 18px;
+        height: 17px;
+    }
+
+
+
+    .action-mobile {
+        display: block;
+        height: auto;
+        background: linear-gradient(271.25deg, #0559BC 15.34%, #0E2E87 87.46%);
+    }
+    .action__content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .action__text {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 194%;
+        margin-top: 20px;
+    }
+    .action__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0E2E87;
+        padding: 14px 30px;
+        width: 262px;
+        height: 48px;
+        box-sizing: border-box;
+        margin: 20px 0 32px 0;
+    }
+    .action__btn {
+        font-size: 22px;
+        padding: 5px 10px;
+        width: 321px;
+        height: 65px;
+    }
+    .contact {
+        height: 100%;
+        background-image: none;
+        background-color: #fff;
+    }
+    .contact__content {
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        background-color: #fff;
+    }
+    .contact__block {
+        display: flex;
+        padding: 50px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 250px;
+        background-color: #fff;
+        box-shadow: none;
+        border-radius: 4px;
+        box-sizing: content-box;
+    }
+    .contact__block-mobile {
+        display: block;
+        background-image: url(/images/bg-contact-mobile.jpg);
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contact__title {
+        font-size: 32px;
+        line-height: 22px;
+        margin-bottom: 32px;
+    }
+    .contact__text {
+        font-size: 20px;
+        line-height: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    a.contact__phone {
+        margin-bottom: 20px;
+        padding-left: 30px;
+        position: relative;
+        font-size: 20px;
+        line-height: 17px;
+    }
+    .contact__phone::before {
+        content: url('/images/icons/phone-blue.png');
+        position: absolute;
+        left: 6px;
+    }
+    .contact__email {
+        margin-bottom: 20px;
+        padding-left: 30px;
+        position: relative;
+        font-size: 20px;
+        line-height: 17px;
+    }
+    .contact__email::before {
+        content: url('/images/icons/email-blue.png');
+        position: absolute;
+        left: 6px;
+    }
+    .contact__vk {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 10px;
+        width: 250px;
+        height: 45px;
+        background: #0E2E87;
+        border-radius: 4px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .contact__vk::before {
+        content: url('/images/icons/vk-mobile-white.png');
+        margin-right: 12px;
+        position: absolute;
+        left: 10px;
+        top: 9px;
+        width: 20px;
+        height: 20px;
+    }
+    .contact__vk p {
+        margin-left: 20px;
+        font-size: 20px;
+        line-height: 17px;
+        font-weight: 500;
+    }
+
+    .documents__lists {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .documents {
+        padding: 20px 0;
+        width: 100%;
+        height: auto;
+        background: #222222;
+        box-sizing: border-box;
+    }
 }
 /* Планшеты максимум  768px*/
 
