@@ -64,10 +64,13 @@ button {
     position: relative;
     padding-left: 75px;
 }
-.header__phone-link::before {
+.header__phone-icon{
     content: url('/images/icons/phone-white.svg');
     position: absolute;
-    left: 30px;
+    left: 37px;
+    top: 0;
+    width: 30px;
+    height: 30px;
 }
 
 .header-mobile {
@@ -1723,6 +1726,14 @@ button.btn-icon::before {
     .subtitle {
         font-size: 14px;
     }
+    .header__phone-icon {
+        content: url(/images/icons/phone-white.svg);
+        position: absolute;
+        left: 40px;
+        top: -2px;
+        width: 25px;
+        height: 25px;
+    }
     .header__phone a{
         font-size: 18px;
     }
@@ -1991,6 +2002,12 @@ button.btn-icon::before {
     }
     .subtitle {
         font-size: 12px;
+    }
+    .header__phone-icon {
+        left: 45px;
+        top: -2px;
+        width: 23px;
+        height: 23px;
     }
     .header__phone a{
         font-size: 16px;
