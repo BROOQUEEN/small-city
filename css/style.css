@@ -3496,7 +3496,274 @@ button.btn-icon::before {
         line-height: 160%;
     }
 }
+@media (max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+    .title {
+        font-size: 22px;
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 43px;
+    }
+    .subtitle {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .header__phone-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 50px;
+        border: 2px solid #FAFAFA;
+        border-radius: 4px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .header__phone-mobile__link p {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 15px;
+        color: white;
+    }
+    .promo__content {
+        padding-top: 30vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .promo__title {
+        font-size: 41px;
+    }
+    .promo__title span {
+        font-size: 29px;
+    }
+    .promo__btn {
+        padding: 18px 100px;
+        font-size: 21px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .services__item-container {
+        width: 100%;
+        padding: 30px 0;
+    }
+    .services__item {
+        width: 300px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .services__values {
+        justify-content: space-between;
+        width: 214px;
+    }
+    .services__type {
+        font-size: 16px;
+        margin: 10px 0 25px 0;
+        padding: 9px 29px;
+        width: auto;
+    }
+    .services__values-text p {
+        margin-left: 11px;
+        line-height: 20px;
+        font-size: 16px;
+        color: #656565;
+        font-weight: 500;
+    }
+    .services button {
+        font-size: 21px;
+        padding: 18px 8px;
+    }
+    .services__item__check {
+        min-width: 100px;
+    }
+    .services__item__check img {
+        width: 14px;
+        height: 14px;
+        margin-right: 6px;
+    }
+    .services__item__check p {
+        font-size: 14px;
+    }
+    .about-us__block:first-child {
+        height: 400px;
+        width: 100%;
+    }
+    .about-us__block-container {
+        margin: 0 auto;
+        width: 370px;
+        padding: 50px 0;
+    }
+    .about-us__title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .about-us__text {
+        font-size: 14px;
+    }
+    .personal__item-container {
+        padding: 30px 0;
+    }
+    .personal-container {
+        width: 300px;
+    }
+    .personal__item {
+        width: 300px;
+        margin-left: 15px;
+    }
+    .personal__values-text p {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    .personal__type {
+        font-size: 16px;
+        margin: 15px 0 18px 0;
+        padding: 6px 9px;
+        width: 211px;
+        height: 32px;
+    }
+    .personal__btn {
+        font-size: 20px;
+        padding: 20px 9px;
+    }
+    .slick-arrow:nth-child(1) {
+        top: 50%;
+        left: -60px;
+        width: 20px;
+        height: 40px;
+        z-index: 5555;
+    }
+    .slick-arrow:nth-child(3) {
+        width: 20px;
+        height: 40px;
+        top: 50%;
+        right: -60px;
+        z-index: 5555;
+    }
+    .comments__comments-mobile {
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .comments__info {
+        margin-left: 15px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .comments__photo {
+        background-image: url(/images/comments/image-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .comments__specialist-subtitle {
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .comments__block__rating {
+        margin-top: 7px;
+        width: 100px;
+    }
+    .comments__block__rating img {
+        width: 15px;
+        height: 15px;
+    }
+    .comments__block__text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 160%;
+    }
+    .comments__item {
+        width: 300px;
+        height: auto;
+        padding: 20px 30px;
+        margin-left: 30px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    .slick-dots button {
+        width: 60px;
+        height: 0px;
+        font-size: 0px;
+        border: 3px solid rgba(14, 46, 135, 0.38);
+        margin-left: 20px;
+    }
+    .action__text {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 194%;
+        margin-top: 20px;
+    }
+    .action__btn {
+        font-size: 18px;
+        padding: 5px 10px;
+        width: 312px;
+        height: 54px;
+    }
+    .contact__title {
+        font-size: 30px;
+        line-height: 22px;
+        margin-bottom: 32px;
+    }
+    .contact__text {
+        font-size: 18px;
+        line-height: 17px;
+        font-weight: 500;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    a.contact__phone {
+        margin-bottom: 20px;
+        padding-left: 30px;
+        position: relative;
+        font-size: 18px;
+        line-height: 17px;
+    }
+    .contact__email {
+        margin-bottom: 20px;
+        padding-left: 30px;
+        position: relative;
+        font-size: 18px;
+        line-height: 17px;
+    }
 
+    .contact__vk p {
+        margin-left: 20px;
+        font-size: 18px;
+        line-height: 17px;
+        font-weight: 500;
+    }
+    .footer__company {
+        margin-top: 26px;
+        width: 400px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+    }
+    .footer__developer {
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 12px;
+        color: rgba(255, 255, 255, 0.67);
+    }
+}
 
 /* Мобильная максиму 480px */
 
