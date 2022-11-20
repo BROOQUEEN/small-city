@@ -3589,6 +3589,9 @@ button.btn-icon::before {
     .services__item__check p {
         font-size: 14px;
     }
+    .services__content {
+        margin-bottom: 0;
+    }
     .about-us__block:first-child {
         height: 400px;
         width: 100%;
@@ -4163,7 +4166,7 @@ button.btn-icon::before {
         line-height: 160%;
     }
     .slick-dots button {
-        width: 50px;
+        width: 35px;
         height: 0px;
         font-size: 0px;
         border: 3px solid rgba(14, 46, 135, 0.38);
@@ -4249,6 +4252,11 @@ button.btn-icon::before {
         line-height: 12px;
         color: rgba(255, 255, 255, 0.67);
     }
+}
+
+
+@media (max-width: 350px) {
+
 }
 
 /* Мобильная максиму 480px */
