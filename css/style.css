@@ -628,15 +628,17 @@ button.btn-icon::before {
     line-height: 22px;
     height: 568px;
     width: 100%;
-    background-image: url('/images/contact-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+}
+.contact iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .contact__content {
     display: flex;
-    align-items: center;
-    justify-content: right;
     height: 100%;
+    position: relative;
 }
 .contact__block {
     display: flex;
@@ -649,6 +651,10 @@ button.btn-icon::before {
     box-shadow: 0px 55px 106px -32px rgba(0, 0, 0, 0.18);
     border-radius: 4px;
     box-sizing: border-box;
+    z-index: 10;
+    right: 0;
+    top: 15%;
+    position: absolute;
 }
 .contact__block-mobile {
     display: none;
