@@ -901,7 +901,7 @@ button.btn-icon::before {
     }
     .services__item-container-checks{
         padding: 30px 0;
-        width: 270px;
+        width: 276px;
         margin: 0 auto;
     }
     .services__type {
@@ -980,6 +980,11 @@ button.btn-icon::before {
     .promo__btn {
         padding: 13px 18px;
         font-size: 20px;
+    }
+    .services__subtitle span{
+        display: block;
+        margin-top: 11px;
+        font-size: 18px;
     }
     .services__item {
         width: 320px;
@@ -1085,8 +1090,11 @@ button.btn-icon::before {
     .services {
         padding: 50px 0;
     }
+    .services__subtitle span{
+        font-size: 16px;
+    }
     .services__item-container {
-        padding: 0;
+        padding: 27px 0 32px;
         width: 250px;
         display: flex;
     }
@@ -1103,7 +1111,7 @@ button.btn-icon::before {
     }
     .services__type {
         font-size: 14px;
-        margin: 12px 0 12px 0;
+        margin: 15px 0 15px 0;
         padding: 8px 16px;
         width: 170px;
     }
@@ -1132,7 +1140,7 @@ button.btn-icon::before {
     }
     .services__item-container-checks{
         padding: 30px 0;
-        width: 230px;
+        width: 235px;
         margin: 0 auto;
     }
     .services__item__check {
@@ -1290,8 +1298,11 @@ button.btn-icon::before {
     .services {
         padding: 50px 0;
     }
+    .services__subtitle span{
+        font-size: 14px;
+    }
     .services__item-container {
-        padding: 0;
+        padding: 34px 0 34px;
         width: 250px;
         display: flex;
     }
@@ -1341,7 +1352,7 @@ button.btn-icon::before {
     }
     .services__item-container-checks{
         padding: 30px 0;
-        width: 209px;
+        width: 215px;
         margin: 0 auto;
     }
     .services__item__check {
@@ -1500,7 +1511,6 @@ button.btn-icon::before {
         padding: 40px 0;
     }
     .services__item-container {
-        padding: 0;
         width: 250px;
         display: flex;
     }
@@ -1550,7 +1560,7 @@ button.btn-icon::before {
     }
     .services__item-container-checks{
         padding: 30px 0;
-        width: 209px;
+        width: 214px;
         margin: 0 auto;
     }
     .services__item__check {
@@ -1767,6 +1777,9 @@ button.btn-icon::before {
     .services {
         padding: 40px 0;
     }
+    .services__subtitle span{
+        font-size: 12px;
+    }
     .services__item-container {
         width: 155px;
     }
@@ -1818,9 +1831,9 @@ button.btn-icon::before {
         height: 13px;
         margin-right: 7px;
     }
-    .services__item-container-checks{
-        padding: 15px 0;
-        width: 198px;
+    .services__item-container-checks {
+        padding: 35px 0;
+        width: 202px;
         margin: 0 auto;
     }
     .services__item__check {
@@ -2046,6 +2059,9 @@ button.btn-icon::before {
     .services {
         padding: 40px 0;
     }
+    .services__subtitle span{
+        font-size: 10px;
+    }
     .services__item-container {
         width: 155px;
     }
@@ -2055,7 +2071,6 @@ button.btn-icon::before {
     }
     .services__item {
         width: 184px;
-        height: 270px;
     }
     .services button {
         font-size: 16px;
@@ -2098,7 +2113,7 @@ button.btn-icon::before {
         margin-right: 7px;
     }
     .services__item-container-checks{
-        padding: 15px 0;
+
         width: 170px;
         margin: 0 auto;
     }
@@ -2409,7 +2424,9 @@ button.btn-icon::before {
         display: none;
     }
 
-
+    .services__subtitle span{
+        font-size: 25px;
+    }
     .services__lists {
         margin-top: 40px;
         align-items: center;
@@ -2971,7 +2988,9 @@ button.btn-icon::before {
         display: none;
     }
 
-
+    .services__subtitle span{
+        font-size: 22px;
+    }
     .services__lists {
         margin-top: 40px;
         align-items: center;
@@ -3474,6 +3493,9 @@ button.btn-icon::before {
         margin: 0;
         margin-top: 10px;
     }
+    .services__subtitle span{
+        font-size: 20px;
+    }
     .personal-container {
         width: 400px;
     }
@@ -3573,6 +3595,9 @@ button.btn-icon::before {
         font-size: 21px;
         margin: 0;
         margin-top: 10px;
+    }
+    .services__subtitle span{
+        font-size: 18px;
     }
     .services__item-container {
         width: 100%;
@@ -3841,6 +3866,9 @@ button.btn-icon::before {
         font-size: 20px;
         margin-top: 10px;
     }
+    .services__subtitle span{
+        font-size: 16px;
+    }
     .about-us__block:first-child {
         height: 350px;
         width: 100%;
@@ -4058,6 +4086,9 @@ button.btn-icon::before {
         padding: 15px 73px;
         font-size: 16px;
         margin-top: 10px;
+    }
+    .services__subtitle span{
+        font-size: 14px;
     }
     .services__item-container {
         width: 100%;
