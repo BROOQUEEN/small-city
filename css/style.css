@@ -632,6 +632,9 @@ button.btn-icon::before {
     width: 100%;
     position: relative;
 }
+.sss {
+    display: none;
+}
 .contact iframe {
     position: absolute;
     top: 0;
@@ -742,6 +745,7 @@ button.btn-icon::before {
     height: 100%;
 }
 .documents__item {
+    text-align: center;
 }
 .documents__link {
     font-weight: 700;
@@ -2722,6 +2726,12 @@ button.btn-icon::before {
         background-image: none;
         background-color: #fff;
     }
+    .contact iframe {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 300px;
+    }
     .contact__content {
         align-items: center;
         justify-content: center;
@@ -2740,14 +2750,18 @@ button.btn-icon::before {
         box-shadow: none;
         border-radius: 4px;
         box-sizing: content-box;
+        display: none;
+    }
+    .sss {
+        text-align: center;
+        height: 350px;
+        display: flex;
+        justify-content: center;
     }
     .contact__block-mobile {
-        display: block;
-        background-image: url(/images/bg-contact-mobile.jpg);
-        width: 100%;
-        height: 400px;
-        background-repeat: no-repeat;
-        background-size: cover;
+        display: flex;
+        position: relative;
+        top: 0;
     }
     .contact__title {
         font-size: 32px;
@@ -3310,27 +3324,7 @@ button.btn-icon::before {
         height: 100%;
         background-color: #fff;
     }
-    .contact__block {
-        display: flex;
-        padding: 50px 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-        height: 250px;
-        background-color: #fff;
-        box-shadow: none;
-        border-radius: 4px;
-        box-sizing: content-box;
-    }
-    .contact__block-mobile {
-        display: block;
-        background-image: url(/images/bg-contact-mobile.jpg);
-        width: 100%;
-        height: 400px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+
     .contact__title {
         font-size: 32px;
         line-height: 22px;
@@ -4020,14 +4014,6 @@ button.btn-icon::before {
         line-height: 17px;
         font-weight: 500;
     }
-    .contact__block-mobile {
-        display: block;
-        background-image: url(/images/bg-contact-mobile.jpg);
-        width: 100%;
-        height: 350px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .documents__link {
         font-size: 16px;
     }
@@ -4293,14 +4279,6 @@ button.btn-icon::before {
         font-size: 16px;
         line-height: 17px;
         font-weight: 500;
-    }
-    .contact__block-mobile {
-        display: block;
-        background-image: url(/images/bg-contact-mobile.jpg);
-        width: 100%;
-        height: 350px;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     .documents__link {
         font-size: 16px;
