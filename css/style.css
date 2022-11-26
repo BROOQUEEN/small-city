@@ -179,11 +179,13 @@ button.btn-icon::before {
     margin: 0 auto;
 }
 .services__item-container-checks{
-    padding: 15px 0;
+    padding: 35px 0;
     width: 280px;
     margin: 0 auto;
 }
-.services__subtitle {
+.services__subtitle span{
+    display: block;
+    margin-top: 11px;
 }
 .services__type {
     font-size: 18px;
