@@ -287,6 +287,9 @@ button.btn-icon::before {
     height: 900px;
     box-sizing: border-box;
 }
+.about-us_2 {
+    height: 600px;
+}
 .about-us__content {
     display: flex;
     align-items: center;
