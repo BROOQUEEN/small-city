@@ -431,7 +431,12 @@ button.btn-icon::before {
     font-weight: 700;
     font-size: 22px;
     line-height: 194%;
-    color: white;
+    color: #FFFFFF;
+}
+.action__text span {
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
 }
 .action__text-two {
     width: 705px;
@@ -441,12 +446,12 @@ button.btn-icon::before {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
+    color: #0E2E87;
     align-items: center;
-    padding: 10px 30px;
+    padding: 10px 40px;
     background: #FFFFFF;
     border-radius: 4px;
     box-sizing: border-box;
-    width: 305px;
     height: 72px;
 }
 .action__btn-two {
