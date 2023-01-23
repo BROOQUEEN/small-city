@@ -281,7 +281,24 @@ button.btn-icon::before {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.about-us__block_2 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.about-us__block_2:first-child{
+    background-image: url('/images/about-us/about-us-bg-2.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .about-us__block:last-child {
+    
+    margin-left: 100px;
+}
+.about-us__block_2:last-child {
     
     margin-left: 100px;
 }
@@ -294,8 +311,24 @@ button.btn-icon::before {
 .about-us__title {
     font-weight: 600;
     font-size: 32px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
+
+.about-us__title__mini {
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    margin-bottom: -12px !important;
+    margin-top: 16px !important;
+}
+
+.about-us__title__big {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 50px !important;
+}
+
+
+
 .about-us__text {
     line-height: 160%;
 }
@@ -919,6 +952,11 @@ button.btn-icon::before {
         align-items: center; 
     }
     .about-us__block:last-child {
+        width: 490px;
+        margin-left: 65px;
+        margin-bottom: 30px;
+    }
+    .about-us__block_2:last-child {
         width: 490px;
         margin-left: 65px;
         margin-bottom: 30px;
@@ -1853,6 +1891,10 @@ button.btn-icon::before {
         width: 50%;
         margin-left: 50px;
     }
+    .about-us__block_2:last-child {
+        width: 50%;
+        margin-left: 50px;
+    }
     .about-us__title {
         font-size: 20px;
         margin-bottom: 30px;
@@ -2131,6 +2173,11 @@ button.btn-icon::before {
         width: 310px;
     }
     .about-us__block:last-child {
+        width: 50%;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .about-us__block_2:last-child {
         width: 50%;
         margin: 0 auto;
         margin-left: 50px;
@@ -2494,7 +2541,15 @@ button.btn-icon::before {
         height: 450px;
         width: 100%;
     }
+    .about-us__block_2:first-child {
+        height: 450px;
+        width: 100%;
+    }
     .about-us__block:last-child {
+        width: 100%;
+        margin: 0;
+    }
+    .about-us__block_2:last-child {
         width: 100%;
         margin: 0;
     }
@@ -3068,7 +3123,15 @@ button.btn-icon::before {
         height: 450px;
         width: 100%;
     }
+    .about-us__block_2:first-child {
+        height: 450px;
+        width: 100%;
+    }
     .about-us__block:last-child {
+        width: 100%;
+        margin: 0;
+    }
+    .about-us__block_2:last-child {
         width: 100%;
         margin: 0;
     }
@@ -3641,6 +3704,10 @@ button.btn-icon::before {
         height: 400px;
         width: 100%;
     }
+    .about-us__block_2:first-child {
+        height: 400px;
+        width: 100%;
+    }
     .about-us__block-container {
         margin: 0 auto;
         width: 370px;
@@ -3864,6 +3931,10 @@ button.btn-icon::before {
         font-size: 16px;
     }
     .about-us__block:first-child {
+        height: 350px;
+        width: 100%;
+    }
+    .about-us__block_2:first-child {
         height: 350px;
         width: 100%;
     }
@@ -4107,6 +4178,10 @@ button.btn-icon::before {
         margin: 0 auto;
     }
     .about-us__block:first-child {
+        height: 300px;
+        width: 100%;
+    }
+    .about-us__block_2:first-child {
         height: 300px;
         width: 100%;
     }
