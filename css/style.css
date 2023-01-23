@@ -1185,6 +1185,9 @@ button.btn-icon::before {
         width: 594px;
         font-size: 18px;
     }
+    .action__text span {
+        font-size: 34px;
+    }
     .action__btn {
         font-size: 19px;
         padding: 5px 26px;
@@ -1288,6 +1291,9 @@ button.btn-icon::before {
     .action__text {
         width: 515px;
         font-size: 16px;
+    }
+    .action__text span {
+        font-size: 30px;
     }
     .action__btn {
         font-size: 16px;
@@ -1669,6 +1675,9 @@ button.btn-icon::before {
         width: 478px;
         font-size: 14px;
     }
+    .action__text span {
+        font-size: 28px;
+    }
     .action__btn {
         font-size: 14px;
         padding: 5px 26px;
@@ -1873,7 +1882,6 @@ button.btn-icon::before {
     }
     .services__item {
         width: 221px;
-        height: 315px;
     }
     .services button {
         font-size: 18px;
@@ -1892,7 +1900,7 @@ button.btn-icon::before {
         height: 530px;
     }
     .about-us__block-container {
-        width: 380px;
+        width: 360px;
     }
     .about-us__block:last-child {
         width: 50%;
@@ -1928,6 +1936,9 @@ button.btn-icon::before {
     .action__text {
         width: 390px;
         font-size: 12px;
+    }
+    .action__text span {
+        font-size: 24px;
     }
     .about-us__info-title {
         font-size: 14px;
@@ -2165,7 +2176,7 @@ button.btn-icon::before {
         width: 143px;
     }
     .about-us {
-        height: 310px;
+        height: 500px;
     }
     .about-us__block-container {
         width: 310px;
@@ -2186,6 +2197,31 @@ button.btn-icon::before {
     }
     .about-us__text {
         font-size: 12px;
+    }
+    .about-us__info-title {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .about-us__block_2 .about-us__title {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-us__info-item {
+        margin-left: 28px;
+        font-size: 12px;
+    }
+    .about-us__info-text {
+        margin-left: 6px;
+        font-size: 12px;
+    }
+    .about-us__info-block {
+        padding: 10px 18px;
+        background-color: #F1F4FB;
+    }
+    .about-us__title__mini {
+        font-size: 14px;
+        margin-bottom: 16px;
     }
     .action {
         height: 80px;
