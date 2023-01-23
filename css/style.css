@@ -530,7 +530,7 @@ button.btn-icon::before {
 }
 
 .personal__item {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -555,7 +555,7 @@ button.btn-icon::before {
 }
 .personal__item-container {
     padding: 30px 0;
-    width: 100%;
+    width: 252px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -576,6 +576,9 @@ button.btn-icon::before {
     box-sizing: border-box;
     width: 252px;
     height: 38px;
+}
+.personal .price {
+    margin-top: 23px;
 }
 .personal__values {
     display: flex;
