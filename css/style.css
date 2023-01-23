@@ -2572,6 +2572,31 @@ button.btn-icon::before {
     .about-us__text {
         font-size: 18px;
     }
+    .about-us__title__mini {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .about-us__block_2 .about-us__title {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .about-us__info-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .about-us__info-item {
+        margin-left: 28px;
+        font-size: 16px;
+    }
+    .about-us__info-block {
+        padding: 14px 18px;
+        background-color: #F1F4FB;
+    }
+    .about-us__info-text {
+        margin-left: 6px;
+        font-size: 16px;
+    }
     .action {
         display: none;
     }
@@ -3668,7 +3693,7 @@ button.btn-icon::before {
     }
     .about-us__block-container {
         margin: 0 auto;
-        width: 370px;
+        width: 431px;
         padding: 50px 0;
     }
     .about-us__title {
@@ -3677,6 +3702,27 @@ button.btn-icon::before {
     }
     .about-us__text {
         font-size: 14px;
+    }
+    .about-us__info-item {
+        margin-left: 28px;
+        font-size: 14px;
+    }
+    .about-us__info-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .about-us__block_2 .about-us__title {
+        font-size: 20px;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .about-us__info-text {
+        margin-left: 6px;
+        font-size: 14px;
+    }
+    .about-us__title__mini {
+        font-size: 22px;
+        margin-bottom: 18px;
     }
     .personal__item-container {
         padding: 30px 0;
@@ -4135,8 +4181,29 @@ button.btn-icon::before {
     .about-us__title {
         font-size: 20px;
     } 
+    .about-us__title__mini {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
     .about-us__text {
         font-size: 13px;
+    }
+    .about-us__info-item {
+        margin-left: 28px;
+        font-size: 13px;
+    }
+    .about-us__info-text {
+        margin-left: 6px;
+        font-size: 13px;
+    }
+    .about-us__info-title {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .about-us__block_2 .about-us__title {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .personal {
         padding: 20px 0 40px 0;
