@@ -294,6 +294,7 @@ button.btn-icon::before {
 .about-us__content {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
 }
@@ -1017,7 +1018,6 @@ button.btn-icon::before {
     }
     .services__item {
         width: 350px;
-        height: 458px;
     }
     .services__item-container {
         padding: 30px 0;
@@ -1036,7 +1036,6 @@ button.btn-icon::before {
     .about-us__block_2:last-child {
         width: 490px;
         margin-left: 65px;
-        margin-bottom: 30px;
     }
     .action {
         background-image: url('/images/action/action-bg-2.jpg');
@@ -1107,20 +1106,40 @@ button.btn-icon::before {
     }
     .services__item {
         width: 320px;
-        height: 430px;
     }
     .services button {
         font-size: 20px;
         padding: 19px 34px;
     }
     .about-us {
-        height: 530px;
+        height: 720px;
     }
     .about-us__title {
         font-size: 30px;
     }
     .about-us__text {
         font-size: 17px;
+    }
+    .about-us__title__mini {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+        margin-bottom: 20px;
+    }
+    .about-us__info-item {
+        margin-left: 28px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #656565;
+        list-style-type: disc;
+    }
+    .about-us__info-text {
+        margin-left: 6px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #656565;
     }
     .action__text {
         width: 635px;
@@ -1219,7 +1238,6 @@ button.btn-icon::before {
     }
     .services__item {
         width: 280px;
-        height: 400px;
     }
     .services button {
         font-size: 18px;
@@ -1235,15 +1253,36 @@ button.btn-icon::before {
         width: 170px;
     }
     .about-us {
-        height: 470px;
+        height: 670px;
+    }
+    .about-us__info-block {
+        padding: 18px;
+        background-color: #F1F4FB;
     }
     .about-us__block-container {
         width: 430px;
     }
+    
     .about-us__title {
         font-size: 25px;
     }
+    .about-us__block_2 .about-us__title {
+        font-size: 25px;
+    }
+    .about-us__info-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
     .about-us__text {
+        font-size: 15px;
+    }
+    .about-us__info-item {
+        margin-left: 28px;
+        font-size: 15px;
+        color: #656565;
+    }
+    .about-us__info-text {
+        margin-left: 6px;
         font-size: 15px;
     }
     .action__text {
@@ -1358,6 +1397,7 @@ button.btn-icon::before {
     }
     .subtitle {
         font-size: 16px;
+        max-width: 190px;
     }
     .header__phone a{
         font-size: 24px;
@@ -1390,7 +1430,7 @@ button.btn-icon::before {
         font-size: 14px;
     }
     .services__item-container {
-        padding: 34px 0 34px;
+        padding: 10px 0 20px;
         width: 250px;
         display: flex;
     }
@@ -1400,7 +1440,6 @@ button.btn-icon::before {
     }
     .services__item {
         width: 260px;
-        height: 370px;
     }
     .services button {
         font-size: 18px;
@@ -1416,16 +1455,36 @@ button.btn-icon::before {
         width: 143px;
     }
     .about-us {
-        height: 420px;
+        height: 590px;
     }
     .about-us__block-container {
         width: 430px;
     }
+    .about-us__block_2 .about-us__title {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     .about-us__title {
         font-size: 22px;
+        margin-top: 25px;
+    }
+    .about-us__info {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us__info-title {
+        font-size: 15px;
+        margin-bottom: 10px;
     }
     .about-us__text {
         font-size: 14px;
+    }
+    .about-us__info-item {
+        margin-left: 28px;
+        font-size: 14px;
+        color: #656565;
     }
     .action__text {
         width: 515px;
@@ -1577,7 +1636,6 @@ button.btn-icon::before {
     }
     .services__item {
         width: 254px;
-        height: 370px;
     }
     .services button {
         font-size: 18px;
@@ -1593,7 +1651,7 @@ button.btn-icon::before {
         width: 143px;
     }
     .about-us {
-        height: 420px;
+        height: 590px;
     }
     .about-us__block-container {
         width: 430px;
@@ -1831,7 +1889,7 @@ button.btn-icon::before {
         width: 143px;
     }
     .about-us {
-        height: 360px;
+        height: 530px;
     }
     .about-us__block-container {
         width: 380px;
@@ -1848,6 +1906,19 @@ button.btn-icon::before {
         font-size: 20px;
         margin-bottom: 30px;
     }
+    .about-us__title__mini {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    .about-us__block_2 .about-us__title {
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .about-us__info-block {
+        padding: 15px 18px;
+        background-color: #F1F4FB;
+    }
     .about-us__text {
         font-size: 13px;
     }
@@ -1857,6 +1928,19 @@ button.btn-icon::before {
     .action__text {
         width: 390px;
         font-size: 12px;
+    }
+    .about-us__info-title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .about-us__info-item {
+        margin-left: 28px;
+        font-size: 13px;
+        color: #656565;
+    }
+    .about-us__info-text {
+        margin-left: 6px;
+        font-size: 13px;
     }
     .action__btn {
         font-size: 12px;
