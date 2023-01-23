@@ -715,6 +715,7 @@ button.btn-icon::before {
 }
 .comments__photo img {
     width: 100%;
+    border-radius: 100%;
 }
 .comments__block {
     width: 775px;
