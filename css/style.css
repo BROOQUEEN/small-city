@@ -158,7 +158,6 @@ button.btn-icon::before {
     flex-direction: column;
     justify-content: space-between;
     width: 360px;
-    height: 458px;
     background-color: #FAFAFA;
 }
 .services__img {
@@ -203,6 +202,7 @@ button.btn-icon::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 17px;
 }
 .price-line {  
     margin: 0 10px;
@@ -219,7 +219,6 @@ button.btn-icon::before {
     color: #0E2E87;
 }
 .services__services {
-    margin-top: 17px;
     width: 100%;
 }
 .services__services-title {
@@ -261,7 +260,11 @@ button.btn-icon::before {
     top: 0;
     left: 0;
 }
-
+.services__item:last-child .services__services-item p:first-child {
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
 
 .services__btn {}
 .services button {
