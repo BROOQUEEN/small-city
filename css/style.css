@@ -112,6 +112,7 @@ button {
 .promo__btn {
     padding: 15px 30px;
     color: white;
+    font-weight: 600;
     background: transparent;
     border: 2px solid #FAFAFA;
 }
@@ -557,7 +558,7 @@ button.btn-icon::before {
     width: 100%;
 }
 .personal__item-container {
-    padding: 30px 0;
+    padding: 30px 0 16px 0;
     width: 252px;
     display: flex;
     flex-direction: column;
@@ -575,7 +576,7 @@ button.btn-icon::before {
     background: #E7EDFB;
     border-radius: 2px;
     padding: 8px 16px;
-    margin-top: 13px;
+    margin-top: 18px;
     box-sizing: border-box;
     width: 252px;
     height: 38px;
@@ -707,11 +708,13 @@ button.btn-icon::before {
     height: 150px;
     width: 150px;
     margin-left: 30px;
-    background-image: url('/images/comments/image-1tttttttttttt.jpg');
-    background-color: grey;
+    background-image: url('/images/comments/not-avatar.jpg');
     border-radius: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.comments__photo img {
+    width: 100%;
 }
 .comments__block {
     width: 775px;
