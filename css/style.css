@@ -1650,10 +1650,7 @@ button.btn-icon::before {
     .services {
         padding: 40px 0;
     }
-    .services__item-container {
-        width: 250px;
-        display: flex;
-    }
+
     .services__lists {
         margin-top: 60px;
         align-items: center;
@@ -1854,6 +1851,7 @@ button.btn-icon::before {
     }
     .subtitle {
         font-size: 14px;
+        line-height: 24px;
     }
     .header__phone-icon {
         content: url(/images/icons/phone-white.svg);
@@ -1892,7 +1890,7 @@ button.btn-icon::before {
         font-size: 12px;
     }
     .services__item-container {
-        width: 155px;
+        width: 185px;
     }
     .services__lists {
         margin-top: 60px;
@@ -1909,11 +1907,35 @@ button.btn-icon::before {
         height: auto;
     }
     .services__type {
-        font-size: 12px;
+        font-size: 11px;
         margin: 10px 0 10px 0;
-        padding: 6px 14px;
+        padding: 4px 12px;
         width: 143px;
     }
+    .price {
+        height: 17px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .services__item-price__text {
+        font-size: 11px;
+    }
+    .services__services-title {
+        font-size: 13px;
+        padding: 8px 0;
+        margin-bottom: 12px;
+    }
+    .services__services-item p {
+        font-size: 10px;
+    }
+    .services__item:last-child .services__services-item p:first-child {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
     .about-us {
         height: 530px;
     }
