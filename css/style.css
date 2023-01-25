@@ -729,7 +729,7 @@ button.btn-icon::before {
 }
 .comments__block {
     width: 775px;
-    height: 212px;
+    height: auto;
     margin-right: 40px;
 }
 .comments__block__sibtitle {
@@ -842,11 +842,15 @@ button.btn-icon::before {
 
 }
 .contact__vk::before {
-    content: url('/images/icons/vk-white.png');
+    content: url('');
+    background-image: url('/images/icons/vk-white.png');
+    background-size: cover;
     margin-right: 12px;
     position: absolute;
+    width: 20px;
+    height: 12px;
     left: 10px;
-    top: 9px;
+    top: 14px;
 }
 .contact__vk p {
     margin-left: 20px;
@@ -1189,8 +1193,7 @@ button.btn-icon::before {
         height: 344px;
     }
     .comments__block {
-        width: 690px;
-        height: 212px;
+        width: 560px;
         margin-left: 50px;
     }
     .comments__block__text {
@@ -1504,6 +1507,9 @@ button.btn-icon::before {
     }
     .about-us {
         height: 590px;
+    }
+    .about-us_2 {
+        height: 390px;
     }
     .about-us__block-container {
         width: 430px;
@@ -1828,7 +1834,6 @@ button.btn-icon::before {
     }
     .comments__block {
         width: 500px;
-        height: 212px;
         margin-left: 50px;
     }
     .comments__block__sibtitle {
@@ -2178,7 +2183,6 @@ button.btn-icon::before {
     }
     .comments__block {
         width: 435px;
-        height: auto;
         margin-left: 50px;
     }
     .comments__block__sibtitle {
@@ -2215,9 +2219,15 @@ button.btn-icon::before {
         height: 30px;
         font-size: 16px;
     }
+    .contact__vk::before {
+        width: 15px;
+        height: 9px;
+        left: 8px;
+        top: 12px;
+    }
     .contact__vk p {
         font-size: 14px;
-        margin-left: 3px;
+        margin-left: 10px;
     }
     .documents__link {
         font-size: 16px;
@@ -2478,7 +2488,6 @@ button.btn-icon::before {
     }
     .comments__block {
         width: 372px;
-        height: auto;
         margin-left: 35px;
     }
     .comments__block__sibtitle {
@@ -2512,13 +2521,19 @@ button.btn-icon::before {
     }
     .contact__vk {
         padding: 8px 6px;
-        width: 191px;
+        width: 170px;
         height: 30px;
         font-size: 14px;
     }
     .contact__vk p {
         font-size: 11px;
         margin-left: 3px;
+    }
+    .contact__vk::before {
+        width: 13px;
+        height: 8px;
+        left: 11px;
+        top: 12px;
     }
     .documents {
         width: 100%;
@@ -3102,29 +3117,26 @@ button.btn-icon::before {
         align-items: center;
         justify-content: center;
         padding: 8px 10px;
-        width: 250px;
+        width: 265px;
         height: 45px;
         background: #0E2E87;
         border-radius: 4px;
         box-sizing: border-box;
         position: relative;
     }
-    .contact__vk::before {
-        content: url('/images/icons/vk-mobile-white.png');
-        margin-right: 12px;
-        position: absolute;
-        left: 10px;
-        top: 9px;
-        width: 20px;
-        height: 20px;
-    }
+
     .contact__vk p {
         margin-left: 20px;
         font-size: 20px;
         line-height: 17px;
         font-weight: 500;
     }
-
+    .contact__vk::before {
+        width: 22px;
+        height: 13px;
+        left: 11px;
+        top: 17px;
+    }
     .documents__lists {
         display: flex;
         justify-content: space-between;
@@ -3638,26 +3650,11 @@ button.btn-icon::before {
         left: 6px;
     }
     .contact__vk {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         padding: 8px 10px;
-        width: 250px;
+        width: 265px;
         height: 45px;
-        background: #0E2E87;
-        border-radius: 4px;
-        box-sizing: border-box;
-        position: relative;
     }
-    .contact__vk::before {
-        content: url('/images/icons/vk-mobile-white.png');
-        margin-right: 12px;
-        position: absolute;
-        left: 10px;
-        top: 9px;
-        width: 20px;
-        height: 20px;
-    }
+
     .contact__vk p {
         margin-left: 20px;
         font-size: 20px;
@@ -4102,6 +4099,17 @@ button.btn-icon::before {
         font-size: 18px;
         line-height: 17px;
     }
+    .contact__vk {
+        padding: 8px 10px;
+        width: 250px;
+        height: 45px;
+    }
+    .contact__vk::before {
+        width: 20px;
+        height: 12px;
+        left: 15px;
+        top: 17px;
+    }
 
     .contact__vk p {
         margin-left: 20px;
@@ -4331,6 +4339,12 @@ button.btn-icon::before {
         line-height: 22px;
         color: #FAFAFA;
         padding: 0;
+    }
+    .contact__vk::before {
+        width: 18px;
+        height: 11px;
+        left: 11px;
+        top: 14px;
     }
     .contact__vk p {
         margin-left: 20px;
