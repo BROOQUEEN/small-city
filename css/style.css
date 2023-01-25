@@ -1099,6 +1099,12 @@ button.btn-icon::before {
         padding: 13px 18px;
         font-size: 20px;
     }
+    .promo__btn:last-child {
+        padding: 13px 18px 13px 50px;
+    }
+    button.btn-icon::before {
+        left: 18px;
+    }
     .services__subtitle span{
         display: block;
         margin-top: 11px;
@@ -2176,7 +2182,7 @@ button.btn-icon::before {
         width: 143px;
     }
     .about-us {
-        height: 500px;
+        height: 400px;
     }
     .about-us__block-container {
         width: 310px;
@@ -2196,31 +2202,31 @@ button.btn-icon::before {
         margin-bottom: 25px;
     }
     .about-us__text {
-        font-size: 12px;
+        font-size: 10px;
     }
     .about-us__info-title {
-        font-size: 13px;
+        font-size: 11px;
         margin-bottom: 10px;
     }
     .about-us__block_2 .about-us__title {
-        font-size: 18px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .about-us__info-item {
         margin-left: 28px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .about-us__info-text {
         margin-left: 6px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .about-us__info-block {
         padding: 10px 18px;
         background-color: #F1F4FB;
     }
     .about-us__title__mini {
-        font-size: 14px;
+        font-size: 11px;
         margin-bottom: 16px;
     }
     .action {
