@@ -3773,7 +3773,7 @@ button.btn-icon::before {
         font-size: 18px;
     }
     .services__item-container {
-        width: 100%;
+        width: 90%;
         padding: 30px 0;
     }
     .services__item {
@@ -3781,6 +3781,30 @@ button.btn-icon::before {
         height: auto;
         margin-bottom: 50px;
     }
+    .subtitle {
+        font-size: 18px;
+        line-height: 160%;
+        margin-bottom: 10px;
+    }
+    .services__item-price__text {
+        font-size: 16px;
+    }
+    .services__services-title {
+        font-size: 17px;
+        padding: 16px 0;
+        margin-bottom: 18px;
+        margin-top: 6px;
+    }
+    .services__services-item p {
+        font-size: 16px;
+        line-height: 160%;
+    }
+    .services__services-item p:first-child::before {
+        width: 17px;
+        height: 17px;
+        top: 4px;
+    }
+
     .services__type {
         font-size: 16px;
         margin: 10px 0 25px 0;
@@ -4263,15 +4287,40 @@ button.btn-icon::before {
         font-size: 14px;
     }
     .services__item-container {
-        width: 100%;
+        width: 85%;
         padding: 20px 0;
     }
     .services__type {
         font-size: 14px;
-        margin: 6px 0 12px 0;
+        margin: 6px 0 20px 0;
         padding: 9px 29px;
         width: auto;
     }
+    .price {
+        margin-bottom: 16px;
+    }
+    .services__item-price__text {
+        font-size: 14px;
+    }
+    .services__services-title {
+        font-size: 15px;
+        padding: 12px 0;
+        margin-bottom: 18px;
+        margin-top: 6px;
+    }
+    .services__services-item p {
+        font-size: 13px;
+        line-height: 150%;
+    }
+    .services__services-item p:first-child::before {
+        width: 15px;
+        height: 15px;
+        top: 3px;
+    }
+    .services__services-item p:first-child {
+        padding-left: 24px;
+    }
+
     .services button {
         font-size: 18px;
         padding: 15px 8px;
