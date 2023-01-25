@@ -256,10 +256,14 @@ button.btn-icon::before {
     padding-left: 25px;
 }
 .services__services-item p:first-child::before {
-    content: url("/images/icons/check.png");
+    content: '';
+    background-image: url(/images/icons/check.png);
     position: absolute;
-    top: 0;
+
     left: 0;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
 }
 .services__item:last-child .services__services-item p:first-child {
     font-size: 16px;
@@ -1928,6 +1932,10 @@ button.btn-icon::before {
         padding: 8px 0;
         margin-bottom: 12px;
     }
+    .services__services-item p:first-child::before {
+        width: 13px;
+        height: 13px;
+    }
     .services__services-item p {
         font-size: 10px;
     }
@@ -2032,6 +2040,36 @@ button.btn-icon::before {
         margin-left: 6px;
         font-size: 11px;
     }
+    .services__services-title {
+        font-size: 11px;
+        padding: 8px 0;
+        margin-bottom: 12px;
+    }
+    .services__item-price__text {
+        font-size: 9px;
+    }
+    .services__services-item p {
+        font-size: 9px;
+    }
+    .services__services-item p:first-child {
+        padding-left: 20px;
+    }
+    .services__services-item p:first-child::before {
+        width: 10px;
+        height: 10px;
+        top: 4px;
+    }
+    .services__services-item p:first-child {
+        padding-left: 16px;
+    }
+    .services__services-item p {
+        font-size: 8px;
+    }
+    .services__item:last-child .services__services-item p:first-child {
+        font-size: 10px;
+        line-height: 17px;
+    }
+
     .personal__values-text:last-child::before {
         width: 18px;
         height: 1px;
