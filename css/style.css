@@ -2601,8 +2601,8 @@ button.btn-icon::before {
         margin-bottom: 50px;
     }
     .services__item-container {
-        width: 100%;
-        padding: 50px 0;
+        width: 90%;
+        padding: 35px 0;
     }
     .services__type {
         font-size: 19px;
@@ -2615,6 +2615,42 @@ button.btn-icon::before {
         font-size: 29px;
         padding: 28px 8px;
     }
+    .subtitle {
+        font-size: 27px;
+        line-height: 42px;
+        max-width: 400px;
+    }
+    .services__item-price__text {
+        font-size: 18px;
+    }
+    .services__services-title {
+        font-size: 22px;
+        padding: 18px 0;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .price {
+        margin-bottom: 20px;
+    }
+    .services__services-item p {
+        font-size: 18px;
+        line-height: 160%;
+    }
+    .services__services-item p:first-child::before {
+        width: 20px;
+        height: 20px;
+        top: 3px;
+    }
+    .services__services-item p:first-child {
+        padding-left: 30px;
+    }
+    .services__type {
+        font-size: 19px;
+        margin: 10px 0 25px 0;
+        padding: 9px 29px;
+        width: 250px;
+    }
+
     .about-us {
         height: auto;
     }
@@ -3180,10 +3216,7 @@ button.btn-icon::before {
         height: auto;
         margin-bottom: 50px;
     }
-    .services__item-container {
-        width: 100%;
-        padding: 50px 0;
-    }
+
     .services__type {
         font-size: 19px;
         margin: 10px 0 25px 0;
