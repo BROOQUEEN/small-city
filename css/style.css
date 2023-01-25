@@ -3714,11 +3714,11 @@ button.btn-icon::before {
         font-size: 14px;
     }
     .about-us__info-title {
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
     .about-us__block_2 .about-us__title {
-        font-size: 20px;
+        font-size: 16px;
         margin-top: 18px;
         margin-bottom: 18px;
     }
@@ -3727,7 +3727,7 @@ button.btn-icon::before {
         font-size: 14px;
     }
     .about-us__title__mini {
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 18px;
     }
     .personal__item-container {
@@ -4193,6 +4193,19 @@ button.btn-icon::before {
     }
     .about-us__text {
         font-size: 13px;
+    }
+    .about-us__title__mini {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    .about-us__block_2 .about-us__title {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-us__info-title {
+        font-size: 14px;
+        margin-bottom: 10px;
     }
     .about-us__info-item {
         margin-left: 28px;
