@@ -2636,6 +2636,7 @@ button.btn-icon::before {
         font-size: 18px;
         line-height: 160%;
     }
+
     .services__services-item p:first-child::before {
         width: 20px;
         height: 20px;
@@ -2643,6 +2644,10 @@ button.btn-icon::before {
     }
     .services__services-item p:first-child {
         padding-left: 30px;
+    }
+    .services__item:last-child .services__services-item p:first-child {
+        font-size: 18px;
+        line-height: 28px;
     }
     .services__type {
         font-size: 19px;
@@ -3793,23 +3798,27 @@ button.btn-icon::before {
         font-size: 17px;
         padding: 16px 0;
         margin-bottom: 18px;
-        margin-top: 6px;
+        margin-top: 0px;
     }
     .services__services-item p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 160%;
     }
+
     .services__services-item p:first-child::before {
         width: 17px;
         height: 17px;
         top: 4px;
     }
-
+    .services__item:last-child .services__services-item p:first-child {
+        font-size: 14px;
+        line-height: 25px;
+    }
     .services__type {
-        font-size: 16px;
+        font-size: 14px;
         margin: 10px 0 25px 0;
         padding: 9px 29px;
-        width: auto;
+        min-width: 150px;
     }
     .services button {
         font-size: 21px;
@@ -4291,7 +4300,7 @@ button.btn-icon::before {
         padding: 20px 0;
     }
     .services__type {
-        font-size: 14px;
+        font-size: 13px;
         margin: 6px 0 20px 0;
         padding: 9px 29px;
         width: auto;
