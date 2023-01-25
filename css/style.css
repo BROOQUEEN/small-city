@@ -1514,16 +1514,27 @@ button.btn-icon::before {
         font-size: 13px;
         line-height: 18px;
     }
+    .action {
+        height: 120px;
+    }
     .action__text {
         width: 515px;
         font-size: 16px;
     }
     .action__btn {
-        font-size: 16px;
+        font-size: 14px;
         padding: 5px 26px;
-        width: 265px;
-        height: 58px;
+        width: 240px;
+        height: 50px;
     }
+    .action__text span {
+        font-size: 28px;
+    }
+    .action__text {
+        width: 515px;
+        font-size: 14px;
+    }
+
     .personal {
         padding: 50px 0 100px 0;
     }
@@ -2308,6 +2319,10 @@ button.btn-icon::before {
         width: 345px;
         font-size: 10px;
     }
+    .action__text span {
+        font-size: 19px;
+    }
+
     .action__btn {
         font-size: 12px;
         padding: 5px 10px;
