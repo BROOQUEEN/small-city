@@ -1325,6 +1325,10 @@ button.btn-icon::before {
         width: 990px;
         height: 344px;
     }
+    .personal__item-container {
+        padding: 30px 0 16px 0;
+        width: 230px;
+    }
     .personal__type {
         font-size: 14px;
         margin: 12px 0 0 0;
@@ -1541,13 +1545,19 @@ button.btn-icon::before {
     .personal-container {
         width: 850px;
     }
+
     .personal__item {
         width: 262px;
     }
+    
     .comments__item {
         justify-content: start;
         width: 990px;
         height: 344px;
+    }
+    .personal__item-container {
+        padding: 30px 0 16px 0;
+        width: 210px;
     }
     .personal__type {
         font-size: 14px;
@@ -2031,6 +2041,10 @@ button.btn-icon::before {
         width: 220px;
         margin-left: 20px;
     }
+    .personal__item-container {
+        padding: 15px 0 10px 0;
+        width: 170px;
+    }
     .comments__item {
         height: 300px;
         margin-left: 50px;
@@ -2040,7 +2054,7 @@ button.btn-icon::before {
         font-size: 12px;
         margin: 10px 0 0 0;
         padding: 5px 16px;
-        width: 144px;
+        width: 147px;
         height: 26px;
     }
     .personal__values-text img {
@@ -2180,10 +2194,10 @@ button.btn-icon::before {
         margin-bottom: -75px;
     }
     .slick-arrow:nth-child(1) {
-        left: -75px;
+        left: -45px;
     }
     .slick-arrow:nth-child(3) {
-        right: -65px;
+        right: -45px;
     }
 
 }
@@ -2336,15 +2350,17 @@ button.btn-icon::before {
         width: 575px;
     }
     .personal__item-container {
-        padding: 18px 0;
+        padding: 12px 0;
+        width: 150px;
     }
     .personal__lists {
         margin-top: 50px;
     }
     .personal__item {
-        width: 189px;
+        width: 181px;
         margin-left: 15px;
     }
+
     .comments__item {
         height: 245px;
         margin-left: 50px;
@@ -2356,6 +2372,10 @@ button.btn-icon::before {
         padding: 5px 16px;
         width: 144px;
         height: 26px;
+    }
+    .personal .price {
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
     .personal__values-text img {
         width: 14px;
