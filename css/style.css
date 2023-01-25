@@ -311,6 +311,7 @@ button.btn-icon::before {
 .about-us__block:first-child{
     background-image: url('/images/about-us/about-us-bg.jpg');
     height: 100%;
+    width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -323,6 +324,7 @@ button.btn-icon::before {
 .about-us__block_2:first-child{
     background-image: url('/images/about-us/about-us-bg-2.jpg');
     height: 100%;
+    width: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -361,7 +363,7 @@ button.btn-icon::before {
 .about-us__title__big {
     font-weight: 600;
     font-size: 32px;
-    margin-bottom: 50px !important;
+    margin-bottom: 50px;
 }
 
 
@@ -585,6 +587,9 @@ button.btn-icon::before {
     box-sizing: border-box;
     width: 252px;
     height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .personal .price {
     margin-top: 23px;
@@ -1033,7 +1038,7 @@ button.btn-icon::before {
         margin: 14px 0 14px 0;
     }
     .about-us__block:last-child {
-        width: 490px;
+        width: 50%;
         margin-left: 65px;
         margin-bottom: 30px;
     }
@@ -1071,6 +1076,13 @@ button.btn-icon::before {
     }
     .slick-arrow:last-child {
         right: -90px;
+    }
+    .about-us_2 {
+        height: 520px;
+    }
+    .about-us__title__big {
+        font-size: 28px;
+        margin-bottom: 50px;
     }
     .comments {
         padding: 75px 0 150px 0;
@@ -1167,6 +1179,9 @@ button.btn-icon::before {
     }
     .personal__item {
         width: 335px;
+    }
+    .about-us_2 {
+        height: 480px;
     }
     .comments__item {
         justify-content: start;
@@ -1371,6 +1386,13 @@ button.btn-icon::before {
     .services button {
         font-size: 16px;
         padding: 15px 15px;
+    }
+    .about-us_2 {
+        height: 440px;
+    }
+    .about-us__title__big {
+        font-size: 25px;
+        margin-bottom: 50px;
     }
     .comments__block__sibtitle {
         font-size: 24px;
@@ -1772,6 +1794,14 @@ button.btn-icon::before {
         font-size: 16px;
         padding: 14px 14px;
     }
+    .about-us_2 {
+        height: 380px;
+    }
+    .about-us__title__big {
+        font-size: 22px;
+        margin-bottom: 50px;
+        margin-bottom: 30px;
+    }
     .comments {
         padding: 40px 0 125px 0;
     }
@@ -2112,6 +2142,14 @@ button.btn-icon::before {
         font-size: 13px;
         padding: 11px 14px;
     }
+    .about-us_2 {
+        height: 380px;
+    }
+    .about-us__title__big {
+        font-size: 22px;
+        margin-bottom: 50px;
+        margin-bottom: 30px;
+    }
     .comments {
         padding: 40px 0 85px 0;
     }
@@ -2402,7 +2440,16 @@ button.btn-icon::before {
         font-size: 12px;
         padding: 9px 9px;
     }
-    
+    .about-us_2 {
+        height: 240px;
+    }
+    .about-us__title__big {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .about-us__text:last-child {
+        margin-top: 16px;
+    }
     .comments {
         padding: 40px 0 35px 0;
     }
@@ -2730,6 +2777,13 @@ button.btn-icon::before {
         font-size: 24px;
         margin-bottom: 20px;
     }
+    .about-us__title__big {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+    .about-us__text:last-child {
+        margin-top: 30px;
+    }
     .about-us__block_2 .about-us__title {
         font-size: 22px;
         margin-top: 20px;
@@ -2782,7 +2836,7 @@ button.btn-icon::before {
     }
     
     .personal__type {
-        font-size: 22px;
+        font-size: 19px;
         margin: 20px 0 20px 0;
         padding: 5px 16px;
         width: 245px;
@@ -3334,7 +3388,7 @@ button.btn-icon::before {
     }
     
     .personal__type {
-        font-size: 22px;
+        font-size: 19px;
         margin: 20px 0 20px 0;
         padding: 5px 16px;
         width: 245px;
@@ -3907,6 +3961,10 @@ button.btn-icon::before {
     .about-us__title__mini {
         font-size: 18px;
         margin-bottom: 18px;
+    }
+    .about-us__title__big {
+        font-size: 18px;
+        margin-bottom: 26px;
     }
     .personal__item-container {
         padding: 30px 0;
