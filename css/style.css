@@ -2762,6 +2762,7 @@ button.btn-icon::before {
     }
     .personal__item-container {
         padding: 40px 0;
+        width: 330px;
     }
 
     .personal__item {
@@ -3826,6 +3827,10 @@ button.btn-icon::before {
         line-height: 160%;
         margin-bottom: 10px;
     }
+    .personal__item-container {
+        padding: 40px 0;
+        width: 260px;
+    }
     .services__item-price__text {
         font-size: 16px;
     }
@@ -4144,6 +4149,10 @@ button.btn-icon::before {
         margin-left: 15px;
     }
     .personal__item-container {
+        padding: 40px 0;
+        width: 220px;
+    }
+    .personal__item-container {
         padding: 20px 0;
     }
     .personal__values-text p {
@@ -4160,6 +4169,9 @@ button.btn-icon::before {
         padding: 6px 9px;
         width: 177px;
         height: 28px;
+    }
+    .services__item-price__text {
+        font-size: 13px;
     }
     .personal__btn {
         font-size: 17px;
