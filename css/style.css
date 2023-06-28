@@ -1072,7 +1072,7 @@ button.btn-icon::before {
         margin-bottom: 30px;
     }
     .about-us__block_2:last-child {
-        width: 490px;
+        /* width: 490px; */
         margin-left: 65px;
     }
     .action {
@@ -1162,9 +1162,9 @@ button.btn-icon::before {
         font-size: 20px;
         padding: 19px 34px;
     }
-    .about-us {
+    /* .about-us {
         height: 720px;
-    }
+    } */
     .about-us__title {
         font-size: 30px;
     }
@@ -1178,12 +1178,8 @@ button.btn-icon::before {
         margin-bottom: 20px;
     }
     .about-us__info-item {
-        margin-left: 28px;
-        font-weight: 500;
         font-size: 16px;
         line-height: 160%;
-        color: #656565;
-        list-style-type: disc;
     }
     .about-us__info-text {
         margin-left: 6px;
@@ -1309,7 +1305,7 @@ button.btn-icon::before {
         width: 170px;
     }
     .about-us {
-        height: 670px;
+        height: 550px;
     }
     .about-us__info-block {
         padding: 18px;
@@ -1326,16 +1322,20 @@ button.btn-icon::before {
         font-size: 25px;
     }
     .about-us__info-title {
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 17px;
+        padding: 14px 18px;
+    }
+    .about-us__info-list {
+        width: 375px;
     }
     .about-us__text {
         font-size: 15px;
     }
     .about-us__info-item {
-        margin-left: 28px;
         font-size: 15px;
-        color: #656565;
+    }
+    .about-us__info-item p {
+        font-size: 12px;
     }
     .about-us__info-text {
         margin-left: 6px;
@@ -1531,7 +1531,7 @@ button.btn-icon::before {
         font-size: 14px;
     }
     .about-us {
-        height: 590px;
+        height: 500px;
     }
     .about-us_2 {
         height: 390px;
@@ -1541,7 +1541,7 @@ button.btn-icon::before {
     }
     .about-us__block_2 .about-us__title {
         font-size: 22px;
-        margin-top: 20px;
+        margin-top: 0;
         margin-bottom: 20px;
     }
     .about-us__title {
@@ -1553,15 +1553,10 @@ button.btn-icon::before {
         display: flex;
         flex-direction: column;
     }
-    .about-us__info-title {
-        font-size: 15px;
-        margin-bottom: 10px;
-    }
     .about-us__text {
         font-size: 14px;
     }
     .about-us__info-item {
-        margin-left: 28px;
         font-size: 14px;
     }
     .services__services-item p {
@@ -1748,9 +1743,6 @@ button.btn-icon::before {
         margin: 12px 0 12px 0;
         padding: 8px 16px;
         width: 143px;
-    }
-    .about-us {
-        height: 590px;
     }
     .about-us__block-container {
         width: 430px;
@@ -2026,7 +2018,7 @@ button.btn-icon::before {
     }
 
     .about-us {
-        height: 530px;
+        height: 475px;
     }
     .about-us__block-container {
         width: 360px;
@@ -2071,12 +2063,16 @@ button.btn-icon::before {
     }
     .about-us__info-title {
         font-size: 14px;
-        margin-bottom: 10px;
+    }
+    .about-us__info-list {
+        width: 310px;
     }
     .about-us__info-item {
-        margin-left: 28px;
         font-size: 13px;
         color: #656565;
+    }
+    .about-us__info-item p {
+        font-size: 11px;
     }
     .about-us__info-text {
         margin-left: 6px;
@@ -2352,7 +2348,7 @@ button.btn-icon::before {
         width: 143px;
     }
     .about-us {
-        height: 400px;
+        height: 375px;
     }
     .about-us__block-container {
         width: 310px;
@@ -2375,17 +2371,21 @@ button.btn-icon::before {
         font-size: 10px;
     }
     .about-us__info-title {
-        font-size: 11px;
-        margin-bottom: 10px;
+        font-size: 12px;
     }
     .about-us__block_2 .about-us__title {
         font-size: 12px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
+    .about-us__info-list {
+        width: 265px;
+    }
     .about-us__info-item {
-        margin-left: 28px;
         font-size: 10px;
+    }
+    .about-us__info-item p {
+        font-size: 8px;
     }
     .about-us__info-text {
         margin-left: 6px;
@@ -2826,16 +2826,20 @@ button.btn-icon::before {
     }
     .about-us__block_2 .about-us__title {
         font-size: 22px;
-        margin-top: 20px;
         margin-bottom: 20px;
     }
     .about-us__info-title {
         font-size: 18px;
-        margin-bottom: 10px;
+    }
+    .about-us__info-list {
+        width: 100%;
     }
     .about-us__info-item {
-        margin-left: 28px;
         font-size: 16px;
+        margin-left: 0;
+    }
+    .about-us__info-item p {
+        font-size: 13px;
     }
     .about-us__info-block {
         padding: 14px 18px;
@@ -3952,9 +3956,9 @@ button.btn-icon::before {
         width: 100%;
     }
     .about-us__block-container {
-        margin: 0 auto;
-        width: 431px;
-        padding: 50px 0;
+        margin: 0px auto;
+        width: 430px;
+        padding: 30px 0px;
     }
     .about-us__title {
         font-size: 24px;
@@ -3964,16 +3968,16 @@ button.btn-icon::before {
         font-size: 14px;
     }
     .about-us__info-item {
-        margin-left: 28px;
         font-size: 14px;
     }
+    .about-us__info-item p {
+        font-size: 12px;
+    }
     .about-us__info-title {
-        font-size: 14px;
-        margin-bottom: 10px;
+        font-size: 17px;
     }
     .about-us__block_2 .about-us__title {
         font-size: 16px;
-        margin-top: 18px;
         margin-bottom: 18px;
     }
     .about-us__info-text {
@@ -4220,11 +4224,16 @@ button.btn-icon::before {
     .about-us__block-container {
         margin: 0 auto;
         width: 342px;
-        padding: 50px 0;
     }
     .about-us__title {
         font-size: 22px;
         margin-bottom: 20px;
+    }
+    .about-us__info-title {
+        font-size: 13px;
+    }
+    .about-us__info-item p {
+        font-size: 11px;
     }
     .personal {
         padding: 30px 0 60px 0;
@@ -4487,9 +4496,9 @@ button.btn-icon::before {
         width: 100%;
     }
     .about-us__block-container {
-        margin: 0 auto;
+        margin: 0px auto;
         width: 300px;
-        padding: 50px 0;
+        padding: 10px 0px;
     }
     .about-us__title {
         font-size: 20px;
@@ -4512,19 +4521,20 @@ button.btn-icon::before {
     }
     .about-us__info-title {
         font-size: 14px;
-        margin-bottom: 10px;
+
     }
     .about-us__info-item {
-        margin-left: 28px;
-        font-size: 13px;
+        font-size: 12px;
+    }
+    .about-us__info-item p {
+        font-size: 9px;
     }
     .about-us__info-text {
         margin-left: 6px;
         font-size: 13px;
     }
     .about-us__info-title {
-        font-size: 15px;
-        margin-bottom: 10px;
+        font-size: 11px;
     }
     .about-us__block_2 .about-us__title {
         font-size: 18px;
