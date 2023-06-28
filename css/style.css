@@ -294,8 +294,8 @@ button.btn-icon::before {
 
 /* --------------- Секция Почему выбирают нас? ---------------*/
 .about-us {
-    background-color: #FAFAFA;
-    height: 900px;
+    background-color: white;
+    height: 620px;
     box-sizing: border-box;
 }
 .about-us_2 {
@@ -344,7 +344,7 @@ button.btn-icon::before {
     margin-left: 100px;
 }
 .about-us__block-container {
-    width: 470px;
+    width: 533px;
 }
 .about-us__block img {
     height: 100%;  
@@ -352,7 +352,7 @@ button.btn-icon::before {
 .about-us__title {
     font-weight: 600;
     font-size: 32px;
-    margin-top: 32px;
+
     margin-bottom: 20px;
 }
 .about-us__block_2 {
@@ -378,6 +378,7 @@ button.btn-icon::before {
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
+    max-width: 470px;
     color: #656565;
 }
 .about-us__block_2 .about-us__title {
@@ -397,26 +398,44 @@ button.btn-icon::before {
     background-color: #F1F4FB;
 }
 .about-us__info-title {
+    padding: 20px 19px;
+    width: 100%;
+    font-size: 22px;
     font-weight: 600;
-    font-size: 18px;
     line-height: 160%;
-    color: #222222;
-    margin-bottom: 10px;
+    color: rgb(34, 34, 34);
+    background-color: #DFE6F5;
+    text-align: center;
+    box-sizing: border-box;
 }
 .about-us__info-list {
     display: flex;
     flex-direction: column;
+    width: 469px;
+    margin: 0 auto;
 }
 .about-us__info-item {
-    margin-left: 28px;
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
+    color: #222;
+    background-color: white;
+    margin-bottom: 12px;
+    padding: 10px 0;
+    padding-left: 18px;
+    border-left: 2px solid #0559BC;
+}
+.about-us__info-item p {
     color: #656565;
-    list-style-type: disc;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 160%;
+}
+.about-us__info-item:last-child {
+    margin-bottom: 0;
 }
 .about-us__info-block:last-child {
-    background-color: #DFE6F5;
+    background-color: #F1F4FB;
 }
 .about-us__info-text {
     margin-left: 6px;
