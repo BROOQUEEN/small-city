@@ -14,7 +14,11 @@ a {
 button {
     cursor: pointer;
 }
-
+.dotted-line {
+    border-top: 1px dashed #B0B0B0;
+    border-bottom: 1px dashed #B0B0B0;
+    padding: 12px 0;
+}
 
 .container {
     width: 1140px;
@@ -180,6 +184,11 @@ button.btn-icon::before {
     width: 252px;
     margin: 0 auto;
 }
+.services__subtitle {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
 .services__subtitle span{
     display: block;
     margin-top: 11px;
@@ -213,12 +222,21 @@ button.btn-icon::before {
     text-align: center;
     border-bottom: 1px dashed #0E2E87; 
 }
-
+.services__services .price:last-child {
+    margin-bottom: 0;
+}
 .services__item-price__text {
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color: #0E2E87;
+}
+.services__services-list__subtext {
+    color:#222;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
 }
 .services__services {
     width: 100%;
@@ -236,11 +254,17 @@ button.btn-icon::before {
     font-size: 16px;
     line-height: 20px;
     color: #222222;
+    height: 41px;
+    box-sizing: border-box;
 }
 .services__services-list {
     display: flex;
     flex-direction: column;
     flex: 1 77px;
+}
+.services__services-list .services__item-price:last-child, .services__services-list .services__services-item:last-child {
+    border-bottom: 1px dashed #B0B0B0;
+    padding-bottom: 12px;
 }
 .services__services-item {
     display: flex;
