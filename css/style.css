@@ -171,9 +171,18 @@ button.btn-icon::before {
     border-image-slice: 1;
     width: 100%;
     height: 203px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
-.services__img img {
-    width: 100%;
+.services__lists .services__item:nth-child(1) .services__img {
+    background-image: url('/images/services/image-1.jpg');
+}
+.services__lists .services__item:nth-child(2) .services__img {
+    background-image: url('/images/services/image-2.jpg');
+}
+.services__lists .services__item:nth-child(3) .services__img {
+    background-image: url('/images/services/image-3.jpg');
 }
 .services__item-container {
     display: flex;
@@ -1315,12 +1324,12 @@ button.btn-icon::before {
     .services__item {
         width: 280px;
     }
+    .services__img {
+        height: 160px;
+    }
     .services button {
         font-size: 18px;
         padding: 15px 15px;
-    }
-    .services__img {
-        height: auto;
     }
     .services__type {
         font-size: 14px;
@@ -1530,7 +1539,6 @@ button.btn-icon::before {
     }
     .services__lists {
         margin-top: 60px;
-        align-items: center;
     }
     .services__item {
         width: 260px;
@@ -1540,7 +1548,7 @@ button.btn-icon::before {
         padding: 15px 15px;
     }
     .services__img {
-        height: auto;
+        height: 146px;
     }
     .services__type {
         font-size: 12px;
@@ -1553,6 +1561,10 @@ button.btn-icon::before {
     }
     .services__services-title {
         font-size: 14px;
+    }
+    .services__services-list__subtext {
+        font-size: 11px;
+        line-height: 19px;
     }
     .about-us {
         height: 500px;
@@ -1750,7 +1762,6 @@ button.btn-icon::before {
 
     .services__lists {
         margin-top: 60px;
-        align-items: center;
     }
     .services__item {
         width: 254px;
@@ -1760,7 +1771,7 @@ button.btn-icon::before {
         padding: 15px 15px;
     }
     .services__img {
-        height: auto;
+        height: 143px;
     }
     .services__type {
         font-size: 12px;
@@ -1995,7 +2006,6 @@ button.btn-icon::before {
     }
     .services__lists {
         margin-top: 60px;
-        align-items: center;
     }
     .services__item {
         width: 221px;
@@ -2005,7 +2015,7 @@ button.btn-icon::before {
         padding: 15px 15px;
     }
     .services__img {
-        height: auto;
+        height: 125px;
     }
     .services__type {
         font-size: 11px;
@@ -2156,6 +2166,10 @@ button.btn-icon::before {
     .services__services-item p {
         font-size: 9px;
     }
+    .services__services-list__subtext {
+        font-size: 8px;
+        line-height: 15px;
+    }
     .services__services-item p:first-child {
         padding-left: 20px;
     }
@@ -2173,6 +2187,9 @@ button.btn-icon::before {
     .services__item:last-child .services__services-item p:first-child {
         font-size: 10px;
         line-height: 17px;
+    }
+    .services__services-list {
+        flex: 1 65px;
     }
 
     .personal__values-text:last-child::before {
@@ -2353,7 +2370,6 @@ button.btn-icon::before {
     }
     .services__lists {
         margin-top: 40px;
-        align-items: center;
     }
     .services__item {
         width: 184px;
@@ -2363,7 +2379,7 @@ button.btn-icon::before {
         padding: 15px 15px;
     }
     .services__img {
-        height: auto;
+        height: 104px;
     }
     .services__type {
         font-size: 10px;
@@ -2746,6 +2762,9 @@ button.btn-icon::before {
         height: auto;
         margin-bottom: 50px;
     }
+    .services__img {
+        height: 270px;
+    }
     .services__item-container {
         width: 90%;
         padding: 35px 0;
@@ -2771,9 +2790,17 @@ button.btn-icon::before {
     }
     .services__services-title {
         font-size: 22px;
-        padding: 18px 0;
-        margin-bottom: 20px;
+        padding: 25px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
         margin-top: 10px;
+    }
+    .services__services-list__subtext {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 28px;
     }
     .price {
         margin-bottom: 20px;
@@ -2800,6 +2827,9 @@ button.btn-icon::before {
         margin: 10px 0 25px 0;
         padding: 9px 29px;
         width: 250px;
+    }
+    .services__services-list .services__item-price:last-child, .services__services-list .services__services-item:last-child {
+        padding-bottom: 20px;
     }
 
     .about-us {
@@ -3926,6 +3956,9 @@ button.btn-icon::before {
         height: auto;
         margin-bottom: 50px;
     }
+    .services__img {
+        height: 169px;
+    }
     .subtitle {
         font-size: 18px;
         line-height: 160%;
@@ -3947,6 +3980,11 @@ button.btn-icon::before {
     .services__services-item p {
         font-size: 14px;
         line-height: 160%;
+    }
+    .services__services-list__subtext {
+        margin-top: 14px;
+        font-size: 14px;
+        line-height: 24px;
     }
 
     .services__services-item p:first-child::before {
@@ -4505,6 +4543,11 @@ button.btn-icon::before {
     }
     .services__services-item p:first-child {
         padding-left: 24px;
+    }
+    .services__services-list__subtext {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 22px;
     }
 
     .services button {
