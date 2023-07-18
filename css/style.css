@@ -723,13 +723,16 @@ button.btn-icon::before {
     border-top: 1px solid #EEE;
     border-bottom: 1px solid #EEE;
 }
+.personal__services-columns {
+    display: flex;
+}
 .personal__services {
     margin-top: 30px;
     border-radius: 0px 0px 4px 4px;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: space-between;
-    height: 240px;
+    /* height: 240px; */
     box-sizing: border-box;
 }
 .personal__service-item {
@@ -743,9 +746,9 @@ button.btn-icon::before {
     box-sizing: border-box;
     height: auto;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
 }
-.personal__service-item {
+.personal__service-item:last-child {
     margin-bottom: 0;
 }
 .personal__services-text {
