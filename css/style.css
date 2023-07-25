@@ -615,7 +615,7 @@ button.btn-icon::before {
 }
 .personal-left {
     width: 400px;
-    height: 660px;
+    height: auto;
     background-position: center center;
     background-size: cover;
 }
@@ -696,7 +696,7 @@ button.btn-icon::before {
 .personal__btn {
     margin-top: 23px;
     display: flex;
-    width: 672px;
+    width: auto;
     padding: 16px 10px;
     flex-direction: column;
     justify-content: center;
@@ -725,6 +725,7 @@ button.btn-icon::before {
 }
 .personal__services-columns {
     display: flex;
+    margin-bottom: 35px;
 }
 .personal__services {
     margin-top: 30px;
@@ -739,8 +740,9 @@ button.btn-icon::before {
     display: flex;
     flex-direction: column;
     padding-left: 18px;
+    padding-right: 27px;
     border-left: 2px solid rgb(5, 89, 188);
-    width: 300px;
+    width: 319px;
     min-height: 33px;
     background-color: white;
     box-sizing: border-box;
@@ -758,6 +760,7 @@ button.btn-icon::before {
     font-weight: 500;
 }
 .personal__services-subtext {
+    margin-top: 5px;
     color: #656565;
     font-size: 14px;
     font-style: normal;
@@ -1128,6 +1131,11 @@ button.btn-icon::before {
         font-size: 18px;
         margin: 14px 0 14px 0;
     }
+
+    .personal__price {
+        min-width: 285px;
+    }
+
     .about-us__block:last-child {
         width: 50%;
         margin-left: 65px;
@@ -1218,6 +1226,39 @@ button.btn-icon::before {
     }
     .questions__subtext {
         font-size: 13px;
+    }
+
+    .personal__name {
+        font-size: 20px;
+    }
+    .personal__direction {
+        font-size: 14px;
+    }
+    .personal__prices {
+        margin-top: 16px;
+    }
+    .personal__item-price__text {
+        font-size: 14px;
+    }
+    .personal__btn {
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .personal__service-subtitle {
+        padding: 16px 0px;
+        font-size: 18px;
+    }
+    .personal__services-text {
+        font-size: 14px;
+    }
+    .personal__services-subtext {
+        font-size: 12px;
+    }
+    .personal__service-item {
+        padding-left: 16px;
+        padding-right: 25px;
+        width: 300px;
+        min-height: 33px;
     }
 
     .about-us__title {
@@ -1378,6 +1419,44 @@ button.btn-icon::before {
         font-size: 12px;
     }
 
+    .personal-right {
+        padding: 0px 30px;
+    }
+    .personal__name {
+        font-size: 18px;
+    }
+    .personal__direction {
+        font-size: 13px;
+    }
+    .personal__price {
+        padding: 8px 12px;
+        min-width: 240px;
+    }
+    .personal__item-price__text {
+        font-size: 13px;
+    }
+    .personal__btn {
+        margin-top: 6px;
+        font-size: 16px;
+        padding: 13px 10px;
+    }
+    .personal__service-subtitle {
+        margin-top: 25px;
+        padding: 12px 0px;
+        font-size: 16px;
+    }
+    .personal__service-item {
+        padding-left: 14px;
+        padding-right: 23px;
+        width: 275px;
+        min-height: 25px;
+    }
+    .personal__services-text {
+        font-size: 13px;
+    }
+    .personal__services-subtext {
+        font-size: 11px;
+    }
 
     .about-us {
         height: 550px;
@@ -1586,6 +1665,43 @@ button.btn-icon::before {
         min-height: 50px;
     }
 
+    .personal {
+        padding: 50px 0;
+    }
+    .personal__title {
+        margin-bottom: 50px;
+    }
+
+    .personal__price {
+        padding: 8px 12px;
+        min-width: 230px;
+    }
+    .personal__item-price__text {
+        font-size: 12px;
+    }
+    .personal__service-item {
+        padding-left: 12px;
+        padding-right: 24px;
+        width: 250px;
+        min-height: 20px;
+    }
+    .personal__btn {
+        margin-top: 1px;
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .personal__service-subtitle {
+        margin-top: 20px;
+        padding: 8px 0px;
+        font-size: 14px;
+    }
+    .personal__services-text {
+        font-size: 12px;
+    }
+    .personal__services-subtext {
+        font-size: 10px;
+    }
+
     .about-us {
         height: 500px;
     }
@@ -1749,6 +1865,53 @@ button.btn-icon::before {
         padding: 8px 16px;
         width: 143px;
     }
+
+    .personal__name {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .personal__direction {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .personal__price {
+        padding: 4px 12px;
+        min-width: 215px;
+    }
+    .personal__item-price__text {
+        font-size: 11px;
+    }
+    .personal__btn {
+        margin-top: 0px;
+        font-size: 13px;
+        padding: 9px;
+    }
+    .personal__service-subtitle {
+        margin-top: 20px;
+        padding: 5px 0px;
+        font-size: 13px;
+    }
+    .personal__services-columns {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .personal__services {
+        margin-top: 20px;
+    }
+    .personal__service-item {
+        padding-left: 9px;
+        padding-right: 22px;
+        width: 237px;
+        min-height: 17px;
+    }
+    .personal__services-text {
+        font-size: 11px;
+    }
+    .personal__services-subtext {
+        font-size: 9px;
+    }
+
     .about-us__block-container {
         width: 430px;
     }
@@ -1987,6 +2150,63 @@ button.btn-icon::before {
     }
     .questions__subtext {
         font-size: 10px;
+    }
+
+    .personal {
+        padding: 40px 0px 50px;
+    }
+    .personal__title {
+        margin-bottom: 40px;
+    }
+    .personal__item {
+        margin-bottom: 50px;
+    }
+    .personal__name {
+        margin-top: 14px;
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .personal__direction {
+        font-size: 11px;
+    }
+    .personal__prices {
+        margin-top: 7px;
+    }
+
+    .personal__item-price__text {
+        font-size: 9px;
+    }
+    .personal__price {
+        padding: 2px 12px;
+        min-width: 150px;
+    }
+    .personal__btn {
+        font-size: 11px;
+        padding: 7px;
+    }
+    .personal__service-subtitle {
+        margin-top: 15px;
+        padding: 2px 0px;
+        font-size: 12px;
+    }
+    .personal__services-columns {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .personal__services {
+        margin-top: 15px;
+    }
+    .personal__service-item {
+        padding-left: 7px;
+        padding-right: 22px;
+        width: 185px;
+        min-height: 17px;
+    }
+    .personal__services-text {
+        font-size: 9px;
+    }
+    .personal__services-subtext {
+        font-size: 8px;
     }
 
     .about-us {
@@ -2289,6 +2509,52 @@ button.btn-icon::before {
     }
     .questions__subtext {
         font-size: 8px;
+    }
+
+    .personal {
+        padding: 20px 0px 40px;
+    }
+    .personal__title {
+        margin-bottom: 25px;
+    }
+    .personal__item {
+        margin-bottom: 40px;
+    }
+    .personal__name {
+        margin-top: 14px;
+        font-size: 13px;
+        line-height: 11px;
+    }
+    .personal__direction {
+        font-size: 10px;
+    }
+    .personal__prices {
+        margin-top: 4px;
+    }
+    .personal__price {
+        padding: 2px 12px;
+        min-width: 140px;
+    }
+    .personal__btn {
+        font-size: 10px;
+        padding: 6px;
+    }
+    .personal__service-subtitle {
+        margin-top: 15px;
+        padding: 2px 0px;
+        font-size: 10px;
+    }
+    .personal__service-item {
+        padding-left: 7px;
+        padding-right: 22px;
+        width: 160px;
+        min-height: 17px;
+    }
+    .personal__services-text {
+        font-size: 8px;
+    }
+    .personal__services-subtext {
+        font-size: 7px;
     }
 
     .about-us {
