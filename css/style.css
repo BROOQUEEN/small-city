@@ -711,6 +711,9 @@ button.btn-icon::before {
     font-weight: 600;
     line-height: normal;
 }
+.personal__btn--mobile {
+    display: none;
+}
 
 .personal__service-subtitle {
     margin-top: 30px;
@@ -2976,6 +2979,78 @@ button.btn-icon::before {
     }
     .questions__list .questions__item:nth-child(3) .questions__subtext {
         max-width: max-content;
+    }
+
+    .personal {
+        padding: 75px 0;
+    }
+    .personal__title {
+        margin-bottom: 50px;
+    }
+    .personal__item {
+        display: flex;
+        flex-direction: column;
+    }
+    .personal-left {
+        height: 580px;
+        width: 100%;
+    }
+    .personal__lists .personal__item:nth-child(1) .personal-left {
+        background-image: url('/images/personal/image-1--mobile.jpg');
+    }
+    .personal-right {
+        display: flex;
+        align-items: center;
+    }
+    .personal__name {
+        margin-top: 30px;
+        font-size: 27px;
+        line-height: 140%;
+        max-width: 300px;
+        text-align: center;
+    }
+    .personal__direction {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .personal__prices {
+        margin-top: 30px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .personal__price {
+        padding: 12px;
+        min-width: 300px;
+        height: 17px;
+        margin-bottom: 17px;
+        width: 100%;
+    }
+    .personal__item-price__text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 17px;
+    }
+    .personal__btn {
+        display: none;
+    }
+    .personal__btn--mobile {
+        margin-top: 23px;
+        font-size: 19px;
+        display: flex;
+        padding: 16px 15px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background: var(--unnamed, linear-gradient(311deg, #0559BC 0%, #0E2E87 100%));
+        color: #FFF;
+    }
+    .personal__service-subtitle {
+        display: none;
+    }
+    .personal__services-columns {
+        display: none;
     }
 
     .about-us {
