@@ -638,10 +638,10 @@ button.btn-icon::before {
     background-image: url('/images/personal/image-5.jpg');
 }
 .personal__lists .personal__item:nth-child(6) .personal-left {
-    background-image: url('/images/personal/image-6.jpg');
+    background-image: url('/images/personal/image-7.jpg');
 }
 .personal__lists .personal__item:nth-child(7) .personal-left {
-    background-image: url('/images/personal/image-7.jpg');
+    background-image: url('/images/personal/image-6.jpg');
 }
 .personal-right {
     display: flex;
@@ -650,6 +650,7 @@ button.btn-icon::before {
     padding: 0 34px;
     box-sizing: border-box;
     background-color: white;
+    position: relative;
 }
 .personal__name {
     margin-top: 30px;
@@ -658,6 +659,24 @@ button.btn-icon::before {
     font-style: normal;
     font-weight: 600;
     line-height: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.personal__btn-online {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: #E3F4E7;
+    color: #067E12;
+    font-size: 17px;
+    width: 205px;
+    height: 36px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 34px;
+    right: 34px;
 }
 .personal__direction {
     margin-top: 3px;
@@ -672,7 +691,8 @@ button.btn-icon::before {
     display: flex;
     justify-content: space-between;
 }
-.personal__item-price {
+.personal__online {
+    margin-top: 0;
 }
 .personal__price {
     padding: 12px 12px;
@@ -695,6 +715,12 @@ button.btn-icon::before {
 }
 .personal__prices .personal__item-price__text:last-child {
     font-weight: 600;
+}
+.personal__online .personal__price {
+    background-color: #E3F4E7;
+}
+.personal__online .personal__item-price__text {
+    color: #067E12;
 }
 .personal__btn {
     margin-top: 23px;
@@ -1234,6 +1260,7 @@ button.btn-icon::before {
         font-size: 13px;
     }
 
+
     .personal__name {
         font-size: 20px;
     }
@@ -1243,8 +1270,15 @@ button.btn-icon::before {
     .personal__prices {
         margin-top: 16px;
     }
-    .personal__item-price__text {
+    .personal__item-price__text, .personal__btn-online {
         font-size: 14px;
+    }
+    .personal__price {
+        min-width: 265px;
+    }
+    .personal__btn-online {
+        width: 168px;
+        height: 30px;
     }
     .personal__btn {
         margin-top: 10px;
@@ -1438,8 +1472,12 @@ button.btn-icon::before {
         padding: 8px 12px;
         min-width: 240px;
     }
-    .personal__item-price__text {
+    .personal__item-price__text, .personal__btn-online {
         font-size: 13px;
+    }
+    .personal__btn-online {
+        width: 160px;
+        height: 30px;
     }
     .personal__btn {
         margin-top: 6px;
@@ -1682,8 +1720,12 @@ button.btn-icon::before {
         padding: 8px 12px;
         min-width: 230px;
     }
-    .personal__item-price__text {
+    .personal__item-price__text, .personal__btn-online {
         font-size: 12px;
+    }
+    .personal__btn-online {
+        width: 160px;
+        height: 30px;
     }
     .personal__service-item {
         padding-left: 12px;
@@ -1885,8 +1927,14 @@ button.btn-icon::before {
         padding: 4px 12px;
         min-width: 215px;
     }
-    .personal__item-price__text {
+    .personal__item-price__text, .personal__btn-online {
         font-size: 11px;
+    }
+    .personal__btn-online {
+        width: 130px;
+        height: 25px;
+        top: 20px;
+        right: 33px;
     }
     .personal__btn {
         margin-top: 0px;
@@ -2179,8 +2227,14 @@ button.btn-icon::before {
         margin-top: 7px;
     }
 
-    .personal__item-price__text {
+    .personal__item-price__text, .personal__btn-online {
         font-size: 9px;
+    }
+    .personal__btn-online {
+        width: 107px;
+        height: 21px;
+        top: 20px;
+        right: 33px;
     }
     .personal__price {
         padding: 2px 12px;
@@ -2902,8 +2956,14 @@ button.btn-icon::before {
         line-height: 42px;
         max-width: 400px;
     }
-    .services__item-price__text, .personal__item-price__text, .personal__direction {
+    .services__item-price__text, .personal__item-price__text, .personal__direction, .personal__btn-online {
         font-size: 18px;
+    }
+    .personal__btn-online {
+        width: 107px;
+        height: 21px;
+        top: 20px;
+        right: 33px;
     }
     .services__services-title {
         font-size: 22px;
@@ -3002,6 +3062,12 @@ button.btn-icon::before {
         height: 580px;
         width: 100%;
     }
+    .personal-right {
+        align-items: center;
+    }
+    .personal__btn-online {
+        display: none;
+    }
     .personal__lists .personal__item:nth-child(1) .personal-left {
         background-image: url('/images/personal/image-1--mobile.jpg');
     }
@@ -3018,14 +3084,10 @@ button.btn-icon::before {
         background-image: url('/images/personal/image-5--mobile.jpg');
     }
     .personal__lists .personal__item:nth-child(6) .personal-left {
-        background-image: url('/images/personal/image-6--mobile.jpg');
-    }
-    .personal__lists .personal__item:nth-child(7) .personal-left {
         background-image: url('/images/personal/image-7--mobile.jpg');
     }
-    .personal-right {
-        display: flex;
-        align-items: center;
+    .personal__lists .personal__item:nth-child(7) .personal-left {
+        background-image: url('/images/personal/image-6--mobile.jpg');
     }
     .personal__name {
         margin-top: 30px;
@@ -3051,7 +3113,7 @@ button.btn-icon::before {
         width: 100%;
         box-sizing: border-box;
     }
-    .personal__item-price__text {
+    .personal__item-price__text, .personal__btn-online {
         font-weight: 500;
         font-size: 20px;
         line-height: 17px;
@@ -4177,7 +4239,7 @@ button.btn-icon::before {
         margin-bottom: 10px;
     }
 
-    .services__item-price__text, .personal__item-price__text, .personal__direction   {
+    .services__item-price__text, .personal__item-price__text, .personal__direction, .personal__btn-online   {
         font-size: 16px;
     }
     .services__services-title {
@@ -4511,7 +4573,7 @@ button.btn-icon::before {
         font-size: 11px;
     }
 
-    .services__item-price__text, .personal__item-price__text, .personal__direction   {
+    .services__item-price__text, .personal__item-price__text, .personal__direction, .personal__btn-online   {
         font-size: 13px;
     }
 
@@ -4714,7 +4776,7 @@ button.btn-icon::before {
     .price {
         margin-bottom: 16px;
     }
-    .services__item-price__text, .personal__item-price__text, .personal__direction   {
+    .services__item-price__text, .personal__item-price__text, .personal__direction, .personal__btn-online   {
         font-size: 14px;
     }
     .services__services-title {
@@ -4768,7 +4830,7 @@ button.btn-icon::before {
         margin-top: 14px;
         font-size: 14px;
     }
-    .services__item-price__text, .personal__item-price__text, .personal__direction {
+    .services__item-price__text, .personal__item-price__text, .personal__direction, .personal__btn-online {
         font-size: 13px;
     }
     .personal__service-subtitle {
