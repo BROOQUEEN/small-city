@@ -3061,6 +3061,20 @@ button.btn-icon::before {
         display: block;
     }
 
+    .personal__service-subtitle {
+        margin-top: 32px;
+        padding: 21px 0px;
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    .personal__services-columns {
+        display: flex;
+        margin-bottom: 15px;
+        flex-direction: column;
+        height: auto;
+    }
+
     .about-us {
         height: auto;
     }
