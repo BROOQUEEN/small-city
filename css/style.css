@@ -2151,7 +2151,7 @@ button.btn-icon::before {
         width: 300px;
         min-height: 47px;
     }
-    .questions__text {
+    .questions__text, .personal__services-text {
         font-size: 12px;
     }
     .questions__subtext {
@@ -2510,7 +2510,7 @@ button.btn-icon::before {
         width: 250px;
         min-height: 34px;
     }
-    .questions__text {
+    .questions__text, .personal__services-text {
         font-size: 9px;
     }
     .questions__subtext {
@@ -2897,12 +2897,12 @@ button.btn-icon::before {
         font-size: 29px;
         padding: 28px 8px;
     }
-    .subtitle {
+    .subtitle, .personal__name {
         font-size: 27px;
         line-height: 42px;
         max-width: 400px;
     }
-    .services__item-price__text {
+    .services__item-price__text, .personal__item-price__text, .personal__direction {
         font-size: 18px;
     }
     .services__services-title {
@@ -2974,15 +2974,19 @@ button.btn-icon::before {
     .questions__item:first-child {
         margin-top: 0;
     }
-    .questions__text {
+    .questions__text, .personal__services-text  {
         font-size: 20px;
     }
-    .questions__subtext {
+    .questions__subtext, .personal__services-subtext {
         font-size: 18px;
     }
     .questions__list .questions__item:nth-child(3) .questions__subtext {
         max-width: max-content;
     }
+    .personal__direction {
+        text-align: center;
+    }
+
 
     .personal {
         padding: 75px 0;
@@ -3000,6 +3004,24 @@ button.btn-icon::before {
     }
     .personal__lists .personal__item:nth-child(1) .personal-left {
         background-image: url('/images/personal/image-1--mobile.jpg');
+    }
+    .personal__lists .personal__item:nth-child(2) .personal-left {
+        background-image: url('/images/personal/image-2--mobile.jpg');
+    }
+    .personal__lists .personal__item:nth-child(3) .personal-left {
+        background-image: url('/images/personal/image-3--mobile.jpg');
+    }
+    .personal__lists .personal__item:nth-child(4) .personal-left {
+        background-image: url('/images/personal/image-4--mobile.jpg');
+    }
+    .personal__lists .personal__item:nth-child(5) .personal-left {
+        background-image: url('/images/personal/image-5--mobile.jpg');
+    }
+    .personal__lists .personal__item:nth-child(6) .personal-left {
+        background-image: url('/images/personal/image-6--mobile.jpg');
+    }
+    .personal__lists .personal__item:nth-child(7) .personal-left {
+        background-image: url('/images/personal/image-7--mobile.jpg');
     }
     .personal-right {
         display: flex;
@@ -3019,14 +3041,15 @@ button.btn-icon::before {
     .personal__prices {
         margin-top: 30px;
         flex-direction: column;
+        align-items: center;
         width: 100%;
     }
     .personal__price {
-        padding: 12px;
-        min-width: 300px;
+        padding: 20px;
         height: 17px;
         margin-bottom: 17px;
         width: 100%;
+        box-sizing: border-box;
     }
     .personal__item-price__text {
         font-weight: 500;
@@ -3058,7 +3081,18 @@ button.btn-icon::before {
         transition: 0.3s ease-in-out;
     }
     .accordion {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .personal__arrow {
+        width: 26px;
+        margin-right: 10px;
+        transition: 0.3s ease-in-out;
+    }
+    .personal__arrow img {
+        width: 100%;
+        height: auto;
     }
 
     .personal__service-subtitle {
@@ -3066,7 +3100,6 @@ button.btn-icon::before {
         padding: 21px 0px;
         font-size: 25px;
         width: 100%;
-        text-align: center;
     }
     .personal__services-columns {
         display: flex;
@@ -3074,6 +3107,30 @@ button.btn-icon::before {
         flex-direction: column;
         height: auto;
     }
+    .personal__services-columns .personal__services:last-child .personal__service-item:last-child {
+        margin-bottom: 16px;
+    }
+    .personal__services {
+        margin-top: 20px;
+        height: auto;
+    }
+    .personal__services-columns .personal__services:last-child {
+        margin-top: 0;
+    }
+    .personal__service-item {
+        padding-left: 20px;
+        padding-right: 22px;
+        width: 100%;
+        min-height: 30px;
+        margin-top: 10px;
+    }
+    .personal__services-text {
+        font-size: 20px;
+    }
+    .personal__services-subtext {
+        font-size: 16px;
+    }
+
 
     .about-us {
         height: auto;
@@ -3600,12 +3657,20 @@ button.btn-icon::before {
         line-height: 160%;
         box-sizing: border-box;
     }
-    .questions__text {
+    .questions__text, .personal__services-text {
         font-size: 18px;
     }
-    .questions__subtext {
+    .questions__subtext, .personal__services-subtext {
         font-size: 15px;
     }
+
+    .personal-left {
+        height: 500px;
+    }
+    .personal__title {
+        margin-bottom: 50px;
+    }
+
 
     .about-us {
         height: auto;
@@ -3944,7 +4009,7 @@ button.btn-icon::before {
         margin: 0 auto;
         line-height: 50px;
     }
-    .subtitle {
+    .subtitle, .personal__name {
         font-size: 28px;
         margin-bottom: 15px;
     }
@@ -4000,6 +4065,22 @@ button.btn-icon::before {
         font-size: 16px;
         line-height: 160%;
     }
+    .personal-left {
+        height: 450px;
+    }
+    .personal__title {
+        margin-bottom: 40px;
+    }
+    .personal__name {
+        margin-bottom: 5px;
+    }
+    .personal__direction {
+        text-align: center;
+    }
+    .personal__service-subtitle {
+        font-size: 22px;
+    }
+
 }
 @media (max-width: 600px) {
     .container {
@@ -4012,7 +4093,7 @@ button.btn-icon::before {
         margin: 0 auto;
         line-height: 43px;
     }
-    .subtitle {
+    .subtitle, .personal__name {
         font-size: 20px;
         margin-bottom: 10px;
     }
@@ -4078,10 +4159,10 @@ button.btn-icon::before {
         text-align: center;
         padding: 0px 32px;
     }
-    .questions__text {
+    .questions__text, .personal__services-text {
         font-size: 15px;
     }
-    .questions__subtext {
+    .questions__subtext, .personal__services-subtext {
         font-size: 13px;
     }
     .questions__item {
@@ -4090,13 +4171,13 @@ button.btn-icon::before {
         margin-top: 20px;
     }
 
-    .subtitle {
+    .subtitle, .personal__name {
         font-size: 18px;
         line-height: 160%;
         margin-bottom: 10px;
     }
 
-    .services__item-price__text {
+    .services__item-price__text, .personal__item-price__text, .personal__direction   {
         font-size: 16px;
     }
     .services__services-title {
@@ -4150,6 +4231,36 @@ button.btn-icon::before {
         width: 430px;
         padding: 30px 0px;
     }
+
+    .personal {
+        padding: 50px 0px;
+    }
+    .personal-left {
+        height: 400px;
+    }
+    .personal__title {
+        margin-bottom: 40px;
+    }
+    .personal__name {
+        margin-bottom: 5px;
+    }
+    .personal__prices {
+        margin-top: 20px;
+    }
+    .personal__price {
+        margin-bottom: 10px;
+    }
+    .personal__btn--mobile {
+        font-size: 17px;
+    }
+    .personal__service-item {
+        padding-left: 13px;
+        margin-top: 8px;
+    }
+    .personal__service-subtitle {
+        font-size: 18px;
+    }
+
     .about-us__title {
         font-size: 24px;
         margin-bottom: 25px;
@@ -4321,7 +4432,7 @@ button.btn-icon::before {
         font-size: 20px;
         line-height: 38px;
     }
-    .subtitle {
+    .subtitle, .personal__name {
         font-size: 18px;
         margin-bottom: 5px;
     }
@@ -4370,10 +4481,10 @@ button.btn-icon::before {
     .questions__item {
         margin-top: 12px;
     }
-    .questions__text {
+    .questions__text, .personal__services-text {
         font-size: 13px;
     }
-    .questions__subtext {
+    .questions__subtext, .personal__services-subtext {
         font-size: 11px;
     }
 
@@ -4400,8 +4511,31 @@ button.btn-icon::before {
         font-size: 11px;
     }
 
-    .services__item-price__text {
+    .services__item-price__text, .personal__item-price__text, .personal__direction   {
         font-size: 13px;
+    }
+
+    .personal {
+        padding: 30px 0px;
+    }
+    .personal-left {
+        height: 350px;
+    }
+    .personal__title {
+        margin-bottom: 30px;
+    }
+    .personal__name {
+        margin-bottom: 5px;
+    }
+    .personal__direction {
+        margin-top: 0;
+    }
+    .personal__btn--mobile {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .personal__arrow {
+        width: 22px;
     }
  
  
@@ -4538,7 +4672,7 @@ button.btn-icon::before {
         font-size: 17px;
         line-height: 33px;
     }
-    .subtitle {
+    .subtitle, .personal__name {
         font-size: 16px;
         margin-bottom: 5px;
     }
@@ -4580,7 +4714,7 @@ button.btn-icon::before {
     .price {
         margin-bottom: 16px;
     }
-    .services__item-price__text {
+    .services__item-price__text, .personal__item-price__text, .personal__direction   {
         font-size: 14px;
     }
     .services__services-title {
@@ -4620,11 +4754,28 @@ button.btn-icon::before {
         text-align: center;
         padding: 0px 32px;
     }
-    .questions__text {
+    .questions__text, .personal__services-text {
         font-size: 10px;
     }
-    .questions__subtext {
+    .questions__subtext, .personal__services-subtext {
         font-size: 9px;
+    }
+
+    .personal-left {
+        height: 300px;
+    }
+    .personal__btn--mobile {
+        margin-top: 14px;
+        font-size: 14px;
+    }
+    .services__item-price__text, .personal__item-price__text, .personal__direction {
+        font-size: 13px;
+    }
+    .personal__service-subtitle {
+        font-size: 16px;
+    }
+    .personal__arrow {
+        width: 18px;
     }
 
     .about-us__block:first-child {
