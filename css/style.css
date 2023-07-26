@@ -45,6 +45,9 @@ button {
     height: 32px;
     background-color: red;
 }
+.accordion {
+    display: none;
+}
 /* --------------- Шапка сайта ---------------*/
 .header {
     position: absolute;
@@ -3049,8 +3052,13 @@ button.btn-icon::before {
     .personal__service-subtitle {
         display: none;
     }
-    .personal__services-columns {
-        display: none;
+    .accordion-show {
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    .accordion {
+        display: block;
     }
 
     .about-us {
