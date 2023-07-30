@@ -609,6 +609,52 @@ button.btn-icon::before {
     display: flex;
     flex-direction: column;
 }
+.slick-arrow:first-child {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    cursor: pointer;
+}
+.slick-arrow:last-child {
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    cursor: pointer;
+}
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    cursor: pointer;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    display: flex !important;
+    align-items: center;
+    margin-bottom: -70px;
+    justify-content: center;
+    
+}
+.slick-dots button {
+    width: 85px;
+    height: 0px;
+    font-size: 0px;
+    border: 4px solid rgba(14, 46, 135, 0.38);
+    margin-left: 20px;
+}
+.slick-dots li:first-child button {
+    border-radius: 10px 0 0 10px;
+}
+.slick-dots li:last-child button {
+    border-radius: 0 10px 10px 0;
+}
+.slick-dots li[class="slick-active"] button {
+    background: #0E2E87;
+}
 .personal__item {
     display: flex;
     margin-bottom: 75px;
@@ -884,9 +930,6 @@ button.btn-icon::before {
     height: 568px;
     width: 100%;
     position: relative;
-}
-.sss {
-    display: none;
 }
 .contact iframe {
     position: absolute;
@@ -1179,6 +1222,18 @@ button.btn-icon::before {
     }
     .action {
         background-image: url('/images/action/action-bg-2.jpg');
+    }
+    .slick-dots {
+        margin-bottom: -80px;
+    }
+    .slick-dots button {
+        border: 3px solid rgba(14, 46, 135, 0.38);
+    }
+    .slick-arrow:first-child {
+        left: -90px;
+    }
+    .slick-arrow:last-child {
+        right: -90px;
     }
 
 
@@ -2082,6 +2137,15 @@ button.btn-icon::before {
     .logo {
         width: 245px;
     }
+    .slick-dots {
+        margin-bottom: -75px;
+    }
+    .slick-arrow:nth-child(1) {
+        left: -75px;
+    }
+    .slick-arrow:nth-child(3) {
+        right: -65px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -2476,6 +2540,15 @@ button.btn-icon::before {
     .footer__developer {
         font-size: 12px;
     }
+    .slick-dots {
+        margin-bottom: -75px;
+    }
+    .slick-arrow:nth-child(1) {
+        left: -45px;
+    }
+    .slick-arrow:nth-child(3) {
+        right: -45px;
+    }
 
 
 }
@@ -2809,6 +2882,15 @@ button.btn-icon::before {
         margin-left: 3px;
         width: 12px;
         margin-right: 6px;
+    }
+    .slick-dots {
+        margin-bottom: -75px;
+    }
+    .slick-arrow:nth-child(1) {
+        left: -65px;
+    }
+    .slick-arrow:nth-child(3) {
+        right: -55px;
     }
 
 
@@ -3582,6 +3664,28 @@ button.btn-icon::before {
         font-size: 18px;
         line-height: 12px;
         color: rgba(255, 255, 255, 0.67);
+    }
+    .slick-arrow:nth-child(1) {
+        left: -90px;
+        height: 40px;
+    }
+    .slick-arrow:nth-child(3) {
+        right: -90px;
+        height: 40px;
+    }
+    .slick-arrow:nth-child(1) {
+        top: 50%;
+        left: -75px;
+        width: 22px;
+        height: 51px;
+        z-index: 5555;
+    }
+    .slick-arrow:nth-child(3) {
+        width: 22px;
+        height: 51px;
+        top: 50%;
+        right: -75px;
+        z-index: 5555;
     }
 }
 @media (max-width: 700px)  {
@@ -4490,6 +4594,20 @@ button.btn-icon::before {
         line-height: 12px;
         color: rgba(255, 255, 255, 0.67);
     }
+    .slick-arrow:nth-child(1) {
+        top: 50%;
+        left: -60px;
+        width: 20px;
+        height: 40px;
+        z-index: 5555;
+    }
+    .slick-arrow:nth-child(3) {
+        width: 20px;
+        height: 40px;
+        top: 50%;
+        right: -60px;
+        z-index: 5555;
+    }
 }
 
 
@@ -4728,6 +4846,16 @@ button.btn-icon::before {
         font-size: 14px;
         line-height: 12px;
         color: rgba(255, 255, 255, 0.67);
+    }
+    .slick-dots {
+        margin-bottom: -60px;
+    }
+    .slick-dots button {
+        width: 50px;
+        height: 0px;
+        font-size: 0px;
+        border: 3px solid rgba(14, 46, 135, 0.38);
+        margin-left: 20px;
     }
 }
 
@@ -5018,12 +5146,33 @@ button.btn-icon::before {
         line-height: 12px;
         color: rgba(255, 255, 255, 0.67);
     }
+    .slick-arrow:nth-child(1) {
+        top: 50%;
+        left: -45px;
+        width: 15px;
+        height: 35px;
+        z-index: 5555;
+    }
+    .slick-arrow:nth-child(3) {
+        width: 15px;
+        height: 35px;
+        top: 50%;
+        right: -45px;
+        z-index: 5555;
+    }
+    .slick-dots {
+        margin-bottom: -60px;
+    }
+    .slick-dots button {
+        width: 35px;
+        height: 0px;
+        font-size: 0px;
+        border: 3px solid rgba(14, 46, 135, 0.38);
+        margin-left: 20px;
+    }
 }
 
 
-@media (max-width: 350px) {
-
-}
 
 /* Мобильная максиму 480px */
 
