@@ -1232,6 +1232,12 @@ button.btn-icon::before {
 
 
 /* --------------- Адаптив ---------------*/
+@media (max-width: 1600px)  {
+    .about-us__block:first-child {
+        height: auto;
+        width: 800px;
+    }
+}
 @media (max-width: 1440px) {
     .container {
         width: 1110px;
@@ -1308,11 +1314,22 @@ button.btn-icon::before {
     .slick-arrow:last-child {
         right: -90px;
     }
-
-
-    .about-us_2 {
+    .about-us__slider-item {
+        width: 960px;
         height: 520px;
     }
+    .about-us__block:first-child {
+        height: auto;
+        width: 715px;
+    }
+    .about-us_2 {
+        height: 500px;
+    }
+    .about-us__slider-item {
+        width: 960px;
+        height: 500px;
+    }
+
     .about-us__title__big {
         font-size: 28px;
         margin-bottom: 50px;
@@ -1643,6 +1660,14 @@ button.btn-icon::before {
     .about-us__block-container {
         width: 430px;
     }
+    .about-us__block:first-child {
+        height: auto;
+        width: 500px;
+    }
+    .about-us__slider-item {
+        width: 622px;
+        height: 390px;
+    }
     
     .about-us__title {
         font-size: 25px;
@@ -1669,6 +1694,14 @@ button.btn-icon::before {
     .about-us__info-text {
         margin-left: 6px;
         font-size: 15px;
+    }
+    .about-us__slider-item {
+        width: 960px;
+        height: 440px;
+    }
+    .about-us__block:first-child {
+        height: auto;
+        width: 620px;
     }
     .action__text {
         width: 515px;
@@ -1888,12 +1921,20 @@ button.btn-icon::before {
         height: 390px;
     }
     .about-us__block-container {
-        width: 430px;
+        width: 376px;
     }
     .about-us__block_2 .about-us__title {
         font-size: 22px;
         margin-top: 0;
         margin-bottom: 20px;
+    }
+    .about-us__block:first-child {
+        height: auto;
+        width: 540px;
+    }
+    .about-us__slider-item {
+        width: 545px;
+        height: 390px;
     }
     .about-us__title {
         font-size: 22px;
@@ -2131,6 +2172,14 @@ button.btn-icon::before {
         margin-bottom: 50px;
         margin-bottom: 30px;
     }
+    .about-us__slider-item {
+        width: 541px;
+        height: 380px;
+    }
+    .about-us__block:first-child {
+        height: auto;
+        width: 430px;
+    }
     .comments {
         padding: 40px 0 125px 0;
     }
@@ -2218,6 +2267,24 @@ button.btn-icon::before {
     }
     .slick-arrow:nth-child(3) {
         right: -65px;
+    }
+    .about-us .slick-arrow {
+        width: 25px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 16px;
+        border-radius: 4px;
+    }
+    .about-us__block-container {
+        width: 380px;
+    }
+    .about-us__slider-item {
+        width: 488px;
+        height: 380px;
     }
 }
 
@@ -2622,7 +2689,33 @@ button.btn-icon::before {
     .slick-arrow:nth-child(3) {
         right: -45px;
     }
-
+    .about-us .slick-arrow {
+        width: 20px;
+        height: 25px;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 11px;
+        border-radius: 4px;
+    }
+    .about-us .slick-arrow:first-child {
+        width: 20px;
+        height: 25px;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    .about-us .slick-dots button {
+        width: 66px;
+        height: 0px;
+        font-size: 0px;
+        border: 3px solid rgba(255, 255, 255, 0);
+        margin-left: 20px;
+    }
 
 }
 
@@ -2818,6 +2911,17 @@ button.btn-icon::before {
         font-size: 11px;
         margin-bottom: 16px;
     }
+    .about-us__slider-item {
+        width: 380px;
+        height: 240px;
+    }
+    .about-us__block:first-child {
+        height: auto;
+        width: 380px;
+    }
+
+
+
     .action {
         height: 80px;
     }
@@ -2964,6 +3068,29 @@ button.btn-icon::before {
     }
     .slick-arrow:nth-child(3) {
         right: -55px;
+    }
+    .about-us .slick-arrow {
+        width: 20px;
+        height: 25px;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .about-us .slick-arrow:first-child {
+        width: 20px;
+        height: 25px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    .about-us__block-container {
+        width: 280px;
     }
 
 
@@ -3759,6 +3886,34 @@ button.btn-icon::before {
         top: 50%;
         right: -75px;
         z-index: 5555;
+    }
+    .draggable {
+        background-color: #FAFAFA;
+        width: 100%;
+    }
+    .about-us__slider-item {
+        width: 742px;
+        height: 415px;
+    }
+    .about-us .slick-arrow {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 47%;
+        right: 9px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 15px;
+        border-radius: 4px;
+    }
+    .about-us .slick-arrow:first-child {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 47%;
+        left: 9px;
+        cursor: pointer;
+        z-index: 1000;
     }
 }
 @media (max-width: 700px)  {
