@@ -692,7 +692,7 @@ button.btn-icon::before {
     justify-content: space-between;
 }
 .personal__online {
-    margin-top: 0;
+    margin-top: 8px;
 }
 .personal__price {
     padding: 12px 12px;
@@ -1270,6 +1270,9 @@ button.btn-icon::before {
     .personal__prices {
         margin-top: 16px;
     }
+    .personal__online {
+        margin-top: 4px;
+    }
     .personal__item-price__text, .personal__btn-online {
         font-size: 14px;
     }
@@ -1718,7 +1721,7 @@ button.btn-icon::before {
 
     .personal__price {
         padding: 8px 12px;
-        min-width: 230px;
+        min-width: 215px;
     }
     .personal__item-price__text, .personal__btn-online {
         font-size: 12px;
@@ -1925,7 +1928,7 @@ button.btn-icon::before {
     }
     .personal__price {
         padding: 4px 12px;
-        min-width: 215px;
+        min-width: 202px;
     }
     .personal__item-price__text, .personal__btn-online {
         font-size: 11px;
@@ -2216,9 +2219,9 @@ button.btn-icon::before {
         margin-bottom: 50px;
     }
     .personal__name {
-        margin-top: 14px;
-        font-size: 15px;
-        line-height: 17px;
+        margin-top: 24px;
+        font-size: 14px;
+        line-height: 2px;
     }
     .personal__direction {
         font-size: 11px;
@@ -2226,7 +2229,9 @@ button.btn-icon::before {
     .personal__prices {
         margin-top: 7px;
     }
-
+    .personal__online {
+        margin-top: 0;
+    }
     .personal__item-price__text, .personal__btn-online {
         font-size: 9px;
     }
@@ -2581,19 +2586,17 @@ button.btn-icon::before {
         margin-bottom: 40px;
     }
     .personal__name {
-        margin-top: 14px;
-        font-size: 13px;
-        line-height: 11px;
+        font-size: 11px;
     }
     .personal__direction {
         font-size: 10px;
     }
-    .personal__prices {
-        margin-top: 4px;
-    }
     .personal__price {
         padding: 2px 12px;
-        min-width: 140px;
+        min-width: 130px;
+    }
+    .personal__item-price__text, .personal__btn-online {
+        font-size: 8px;
     }
     .personal__btn {
         font-size: 10px;
@@ -3105,6 +3108,9 @@ button.btn-icon::before {
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+    .personal__online {
+        margin-top: 0px;
     }
     .personal__price {
         padding: 20px;
@@ -4308,6 +4314,9 @@ button.btn-icon::before {
     }
     .personal__prices {
         margin-top: 20px;
+    }
+    .personal__online {
+        margin-top: 0px;
     }
     .personal__price {
         margin-bottom: 10px;
