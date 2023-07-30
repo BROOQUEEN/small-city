@@ -411,18 +411,90 @@ button.btn-icon::before {
     height: 100%;
 }
 .about-us__block {
-    width: 50%;
+    flex: 1;
     height: auto;
     display: flex;
     flex-direction: column;
 }
 .about-us__block:first-child{
-    background-image: url('/images/about-us/about-us-bg.jpg');
+    height: auto;
+    width: 960px;
+
+}
+.about-us__slider-list {
+    width: 100%;
     height: 100%;
-    width: 50%;
+    display: flex;
+}
+.about-us__slider-item {
+    width: 960px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
 }
+.about-us__slider-item:nth-child(1) {
+    background-image: url('/images/about-us/image-1.jpg');
+}
+.about-us__slider-item:nth-child(2) {
+    background-image: url('/images/about-us/image-2.jpg');
+}
+.about-us__slider-item:nth-child(3) {
+    background-image: url('/images/about-us/image-3.jpg');
+}
+.about-us .slick-dots button {
+    width: 85px;
+    height: 0px;
+    font-size: 0px;
+    border: 4px solid rgba(255, 255, 255, 0);
+    margin-left: 20px;
+}
+.about-us .slick-dots li[class="slick-active"] button {
+    background: #0E2E89;
+}
+/* .about-us__slider-list .slick-arrow:first-child {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+} */
+.about-us .slick-arrow:first-child {
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.about-us .slick-arrow {
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 16px 16px;
+    border-radius: 4px;
+}
+.about-us .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 90px;
+    display: flex !important;
+    align-items: center;
+    margin-bottom: -70px;
+    justify-content: center;
+}
+.slick-arrow.slick-disabled{
+    display: none !important;
+}
+
 .about-us__block_2 {
     width: 50%;
     height: auto;
@@ -546,6 +618,7 @@ button.btn-icon::before {
     line-height: 160%;
     color: #656565;
 }
+
 /* --------------- / Секция Почему выбирают нас? ---------------*/
 
 /* --------------- / Пройти диагностику и Получить консультацию ---------------*/
