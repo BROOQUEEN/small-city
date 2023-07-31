@@ -1752,6 +1752,9 @@ button.btn-icon::before {
         width: 350px;
         height: 330px;
     }
+    .contact__block-mobile {
+        display: none;
+    }
     .contact__title {
         font-size: 28px;
         margin-bottom: 22px;
@@ -2007,6 +2010,9 @@ button.btn-icon::before {
         justify-content: center;
         width: 350px;
         height: 330px;
+    }
+    .contact__block-mobile {
+        display: none;
     }
     .contact__title {
         font-size: 28px;
@@ -3889,10 +3895,10 @@ button.btn-icon::before {
     }
     .draggable {
         background-color: #FAFAFA;
-        width: 100%;
+        width: 100vw !important;
     }
     .about-us__slider-item {
-        width: 742px;
+        width: 100vw !important;
         height: 415px;
     }
     .about-us .slick-arrow {
@@ -3900,7 +3906,7 @@ button.btn-icon::before {
         height: 30px;
         position: absolute;
         top: 47%;
-        right: 9px;
+        right: 0;
         cursor: pointer;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 15px;
@@ -3911,7 +3917,7 @@ button.btn-icon::before {
         height: 30px;
         position: absolute;
         top: 47%;
-        left: 9px;
+        left: 0;
         cursor: pointer;
         z-index: 1000;
     }
@@ -4394,6 +4400,7 @@ button.btn-icon::before {
         line-height: 12px;
         color: rgba(255, 255, 255, 0.67);
     }
+    
 }
 
 
@@ -4836,6 +4843,29 @@ button.btn-icon::before {
         right: -60px;
         z-index: 5555;
     }
+    .about-us__slider-item {
+        height: 340px;
+    }
+    .about-us .slick-arrow {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 47%;
+        right: 0;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 12px;
+        border-radius: 4px;
+    }
+    .about-us .slick-arrow:first-child {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 47%;
+        left: 0;
+        cursor: pointer;
+        z-index: 1000;
+    }
 }
 
 
@@ -5084,6 +5114,9 @@ button.btn-icon::before {
         font-size: 0px;
         border: 3px solid rgba(14, 46, 135, 0.38);
         margin-left: 20px;
+    }
+    .about-us__slider-item {
+        height: 260px;
     }
 }
 
@@ -5397,6 +5430,26 @@ button.btn-icon::before {
         font-size: 0px;
         border: 3px solid rgba(14, 46, 135, 0.38);
         margin-left: 20px;
+    }
+    .about-us .slick-arrow {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 47%;
+        right: 0;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 12px;
+        border-radius: 4px;
+    }
+    .about-us .slick-arrow:first-child {
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 47%;
+        left: 0;
+        cursor: pointer;
+        z-index: 1000;
     }
 }
 
