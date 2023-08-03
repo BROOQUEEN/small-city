@@ -2716,7 +2716,7 @@ button.btn-icon::before {
         z-index: 1000;
     }
     .about-us .slick-dots button {
-        width: 66px;
+        width: 48px;
         height: 0px;
         font-size: 0px;
         border: 3px solid rgba(255, 255, 255, 0);
@@ -3910,7 +3910,7 @@ button.btn-icon::before {
         cursor: pointer;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 15px;
-        border-radius: 4px;
+        border-radius: 0;
     }
     .about-us .slick-arrow:first-child {
         width: 30px;
@@ -3921,6 +3921,8 @@ button.btn-icon::before {
         cursor: pointer;
         z-index: 1000;
     }
+    .slick-dots button {
+        width: 54px;
 }
 @media (max-width: 700px)  {
     .container {
@@ -4855,7 +4857,6 @@ button.btn-icon::before {
         cursor: pointer;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 12px;
-        border-radius: 4px;
     }
     .about-us .slick-arrow:first-child {
         width: 25px;
@@ -4865,6 +4866,9 @@ button.btn-icon::before {
         left: 0;
         cursor: pointer;
         z-index: 1000;
+    }
+    .slick-dots button {
+        width: 30px;
     }
 }
 
@@ -5109,11 +5113,11 @@ button.btn-icon::before {
         margin-bottom: -60px;
     }
     .slick-dots button {
-        width: 50px;
+        width: 27px;
         height: 0px;
         font-size: 0px;
         border: 3px solid rgba(14, 46, 135, 0.38);
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .about-us__slider-item {
         height: 260px;
@@ -5126,7 +5130,7 @@ button.btn-icon::before {
 
 @media (max-width: 420px) {
     .container {
-        width: 300px;
+        width: 330px;
     }
     .title {
         font-size: 17px;
@@ -5215,10 +5219,10 @@ button.btn-icon::before {
         padding: 0px 32px;
     }
     .questions__text, .personal__services-text {
-        font-size: 10px;
+        font-size: 14px;
     }
     .questions__subtext, .personal__services-subtext {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .personal-left {
@@ -5248,8 +5252,8 @@ button.btn-icon::before {
     }
     .about-us__block-container {
         margin: 0px auto;
-        width: 300px;
-        padding: 10px 0px;
+        width: 330px;
+        padding: 35px 0px 35px;
     }
     .about-us__title {
         font-size: 20px;
@@ -5271,14 +5275,14 @@ button.btn-icon::before {
         margin-bottom: 10px;
     }
     .about-us__info-title {
-        font-size: 14px;
+        font-size: 13px;
 
     }
     .about-us__info-item {
-        font-size: 12px;
+        font-size: 13px;
     }
     .about-us__info-item p {
-        font-size: 9px;
+        font-size: 11px;
     }
     .about-us__info-text {
         margin-left: 6px;
@@ -5425,11 +5429,11 @@ button.btn-icon::before {
         margin-bottom: -60px;
     }
     .slick-dots button {
-        width: 35px;
+        width: 31px;
         height: 0px;
         font-size: 0px;
         border: 3px solid rgba(14, 46, 135, 0.38);
-        margin-left: 20px;
+        margin-left: 7px;
     }
     .about-us .slick-arrow {
         width: 25px;
@@ -5440,7 +5444,6 @@ button.btn-icon::before {
         cursor: pointer;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 12px;
-        border-radius: 4px;
     }
     .about-us .slick-arrow:first-child {
         width: 25px;
